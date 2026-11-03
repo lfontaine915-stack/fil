@@ -66,6 +66,7 @@ Raccourcis : **↑ ↓** défiler · **L** j'aime · **S** sauver · **O** ouvri
 | ▶ au centre | lit la vidéo dans la carte |
 | Marque-page | ajoute aux **Favoris** (bouton en haut à droite) |
 | ⋯ en haut à droite | ce que le fil a appris, état des sources, sauvegarde |
+| Filtre « France » 🇫🇷 | uniquement ce qui se passe en France (le petit drapeau sur les cartes) |
 
 **Ce que le fil apprend** : il fait remonter les sources, thèmes et mots que tu likes, sauvegardes, ouvres ou regardes longtemps, et fait descendre ce que tu zappes en moins d'une seconde et demie. Une carte sur cinq est tirée au hasard pour te faire découvrir autre chose.
 

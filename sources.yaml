@@ -86,6 +86,85 @@ articles:
     themes: [enr, batiment]
     tri: mots-cles
 
+  # --- Avancées en France (ajout du 03/11/2026) ---
+  - nom: L'Usine Nouvelle
+    flux: https://www.usinenouvelle.com/rss/
+    langue: fr
+    themes: [enr, nucleaire, batiment]
+    tri: mots-cles
+
+  - nom: L'EnerGeek
+    flux: https://lenergeek.com/feed/
+    langue: fr
+    themes: [enr, nucleaire]
+    tri: mots-cles
+
+  - nom: Transitions & Énergies
+    flux: https://www.transitionsenergies.com/feed/
+    langue: fr
+    themes: [enr, nucleaire]
+    tri: mots-cles
+
+  - nom: Énergies de la Mer
+    flux: https://www.energiesdelamer.eu/feed/
+    langue: fr
+    themes: [enr]
+    tri: tout
+
+  - nom: Le Monde Énergies
+    flux: https://www.lemonde.fr/energies/rss_full.xml
+    langue: fr
+    themes: [enr, nucleaire]
+    tri: mots-cles
+
+  - nom: Le Monde Architecture
+    flux: https://www.lemonde.fr/architecture/rss_full.xml
+    langue: fr
+    themes: [batiment, chantier]
+    tri: tout
+
+  - nom: Les Cahiers Techniques du Bâtiment
+    flux: https://www.cahiers-techniques-batiment.fr/rss
+    langue: fr
+    themes: [batiment]
+    tri: tout
+
+  - nom: Le Journal du Grand Paris
+    flux: https://www.lejournaldugrandparis.fr/feed/
+    langue: fr
+    themes: [chantier, batiment]
+    tri: mots-cles
+
+  - nom: Ville, Rail & Transports
+    flux: https://www.ville-rail-transports.com/feed/
+    langue: fr
+    themes: [chantier]
+    tri: mots-cles
+
+  - nom: CNRS Le Journal
+    flux: https://lejournal.cnrs.fr/rss
+    langue: fr
+    themes: [enr, nucleaire, batiment]
+    tri: mots-cles
+
+  - nom: Futura Sciences
+    flux: https://www.futura-sciences.com/rss/actualites.xml
+    langue: fr
+    themes: [enr, nucleaire, batiment, chantier]
+    tri: mots-cles
+
+  - nom: Sciences et Avenir
+    flux: https://www.sciencesetavenir.fr/rss.xml
+    langue: fr
+    themes: [enr, nucleaire, batiment, chantier]
+    tri: mots-cles
+
+  - nom: franceinfo Sciences
+    flux: https://www.franceinfo.fr/sciences.rss
+    langue: fr
+    themes: [enr, nucleaire]
+    tri: mots-cles
+
   # ---------- Anglais ----------
   - nom: World Nuclear News
     flux: https://www.world-nuclear-news.org/rss
@@ -257,6 +336,31 @@ youtube:
     chaine: UCaNlbnghtwlsGF-KzAFThqA
     langue: fr
     themes: [enr, nucleaire]
+    tri: mots-cles
+
+  # --- Avancées en France (ajout du 03/11/2026) ---
+  - nom: SNCF Réseau
+    chaine: UCp-944s4R4WYvQmjOP4lFKQ
+    langue: fr
+    themes: [chantier]
+    tri: tout
+
+  - nom: RATP
+    chaine: UCEMmsix52Pa6f1PgE-QflPw
+    langue: fr
+    themes: [chantier]
+    tri: mots-cles
+
+  - nom: Eiffage
+    chaine: UCAK5wDoQ5jdtg8lyQxFWPGw
+    langue: fr
+    themes: [chantier, batiment]
+    tri: tout
+
+  - nom: CNRS
+    chaine: UCRHBpvcASQs852H0t4mt1zA
+    langue: fr
+    themes: [enr, nucleaire, batiment]
     tri: mots-cles
 
   # ---------- Anglais ----------

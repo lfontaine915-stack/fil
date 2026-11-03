@@ -218,3 +218,11 @@ body.vue-favoris .barre { display: none; }
   top: calc(env(safe-area-inset-top) + 64px + max(0px, (60% - 64px - env(safe-area-inset-top) - var(--col) * .5625) / 2));
   box-shadow: 0 18px 40px rgba(0, 0, 0, .55);
 }
+
+/* petit drapeau : contenu qui se passe en France */
+.drapeau {
+  display: inline-block; flex: none; width: 18px; height: 12px; border-radius: 2px;
+  background: linear-gradient(90deg, #2b59d9 0 33.3%, #f4f4f4 33.3% 66.6%, #e8323c 66.6%);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .25);
+}
+.themes .drapeau { width: 14px; height: 10px; margin-right: 6px; vertical-align: -1px; }

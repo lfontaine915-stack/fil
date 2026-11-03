@@ -1,5 +1,5 @@
 // Service worker : l'appli s'ouvre même sans réseau (avec le dernier fil reçu).
-const VERSION = 'fil-v1';
+const VERSION = 'fil-v2';
 const COQUILLE = ['./', 'index.html', 'style.css', 'app.js', 'manifest.webmanifest', 'icones/icone-192.png'];
 
 self.addEventListener('install', (e) => {

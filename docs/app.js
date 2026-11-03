@@ -89,6 +89,7 @@ function score(it) {
   let s = -0.6 * (age / demiVie);
   s += preference(it);
   if (it.favori) s += 0.4;
+  if (it.france) s += 0.3; // avancées en France mises en avant
   if (typeof it.score_ia === 'number') s += 0.8 * it.score_ia; // réservé à une future IA
   if (it.type === 'video') s += 0.15;
   if (!it.image) s -= 0.6;
@@ -105,6 +106,7 @@ let mode = 'fil';    // 'fil' ou 'favoris'
 let finAffichee = false;
 
 function correspond(it) {
+  if (etat.filtre === 'france') return !!it.france;
   return etat.filtre === 'tout' || it.theme === etat.filtre;
 }
 
@@ -232,6 +234,7 @@ function creerCarte(it) {
   $('.extrait', carte).textContent = it.resume || it.extrait || '';
   if (it.aussi?.length) $('.aussi', carte).textContent = `Aussi chez ${it.aussi.join(', ')}`;
   $('[data-act="trad"]', carte).hidden = it.langue !== 'en';
+  $('.drapeau', carte).hidden = !it.france;
   $('[data-act="like"]', carte).classList.toggle('on', !!etat.likes[it.id]);
   $('[data-act="save"]', carte).classList.toggle('on', !!etat.sauves[it.id]);
   const media = $('.media', carte);

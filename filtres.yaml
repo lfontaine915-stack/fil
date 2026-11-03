@@ -96,6 +96,23 @@ exclure:
   - sentenced
   - lawsuit
   - court ruling
+  # politique, prix et trophées, portraits
+  - niche parlementaire
+  - assemblée nationale
+  - député
+  - sénateur
+  - proposition de loi
+  - grands prix
+  - grand prix
+  - trophée
+  - trophées
+  - palmarès
+  - lauréat
+  - lauréats
+  - remise des prix
+  - hors pair
+  - portrait
+  - ladies in tech
   # contrats et commandes (souvent sans images ni intérêt)
   - remporte le contrat
   - décroche le contrat
@@ -326,3 +343,73 @@ favoris:
   - mass timber
   - impression 3d
   - geotherm
+
+# --- 4. France : contenus mis en avant, avec un petit drapeau et le filtre « France » ---
+france:
+  - france
+  - francais
+  - francaise
+  - hexagone
+  - tricolore
+  - outre-mer
+  - paris
+  - ile-de-france
+  - grand paris
+  - lyon
+  - marseille
+  - toulouse
+  - bordeaux
+  - lille
+  - nantes
+  - rennes
+  - grenoble
+  - strasbourg
+  - montpellier
+  - rouen
+  - le havre
+  - dunkerque
+  - saint-nazaire
+  - cherbourg
+  - normandie
+  - bretagne
+  - occitanie
+  - provence
+  - alsace
+  - auvergne
+  - nouvelle-aquitaine
+  - hauts-de-france
+  - flamanville
+  - penly
+  - gravelines
+  - bugey
+  - tricastin
+  - cadarache
+  - saclay
+  - la hague
+  - cigeo
+  - fessenheim
+  - edf
+  - orano
+  - framatome
+  - cea
+  - cnrs
+  - rte
+  - sncf
+  - ratp
+  - vinci
+  - bouygues
+  - eiffage
+  - saint-gobain
+  - schneider electric
+  - nexans
+  - engie
+  - totalenergies
+  - lhyfe
+  - newcleo
+  - jimmy energy
+  - nuward
+  - calogena
+  - hexana
+  - naarea
+  - re2020
+  - maprimerenov

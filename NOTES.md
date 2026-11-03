@@ -25,5 +25,6 @@
 ## Prochaines étapes
 - EN LIGNE depuis le 03/11/2026 : https://lfontaine915-stack.github.io/fil/ (dépôt lfontaine915-stack/fil, Pages = GitHub Actions). 53/53 sources OK depuis GitHub après le plan B YouTube.
 - Le dépôt local `projets/fil-actu` suit `origin/main`. Avant chaque modif : `git pull --rebase` (le robot commite `docs/data` 6 fois par jour). Ne pas commiter `docs/data` depuis le PC.
-1. Installation sur l'Android de Lucas (à confirmer).
+- 03/11/2026 : demande « avancées en France ». 13 sites et 4 chaînes FR ajoutés (70 sources en tout). Liste `france:` dans filtres.yaml → champ `france`, drapeau sur les cartes, filtre « France », bonus de +0,3 au score. Règle `mots-cles` resserrée : un mot du thème dans le titre, ou au moins 2 dans l'extrait. Les exclusions s'appliquent aussi aux anciens contenus.
+1. Installé sur l'Android de Lucas (03/11).
 2. Après une semaine : ajuster les filtres selon ses retours. Plus tard : brancher l'IA dans `ia.py`.

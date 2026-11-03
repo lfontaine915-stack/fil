@@ -159,6 +159,7 @@ class Tri:
         self.exclure = motif(filtres.get("exclure", []))
         self.themes = {t: motif(m) for t, m in (filtres.get("themes") or {}).items()}
         self.favoris = motif(filtres.get("favoris", []))
+        self.france = motif(filtres.get("france", []))
 
     def exclu(self, titre, extrait):
         return bool(self.exclure and self.exclure.search(normaliser(titre + " " + extrait[:150])))
@@ -167,15 +168,17 @@ class Tri:
         """Renvoie (theme, mots trouvés) ou (None, ...) si hors sujet."""
         t_norm, x_norm = normaliser(titre), normaliser(extrait)
         scores, trouves = {}, set()
+        hors_titre = set()
         for theme, rx in self.themes.items():
             if not rx:
                 continue
             dans_titre = set(rx.findall(t_norm))
             dans_texte = set(rx.findall(x_norm)) - dans_titre
             trouves |= dans_titre | dans_texte
+            hors_titre |= dans_texte
             scores[theme] = 2 * len(dans_titre) + len(dans_texte)
-        pertinence = sum(scores.values())
-        if source["tri"] == "mots-cles" and pertinence == 0:
+        # Sources généralistes : un mot du thème dans le titre, ou au moins deux dans le texte.
+        if source["tri"] == "mots-cles" and trouves == hors_titre and len(hors_titre) < 2:
             return None, trouves
         bonus = 3 if (len(source["themes"]) == 1 and source["tri"] == "tout") else 1.5
         for t in source["themes"]:
@@ -311,6 +314,7 @@ def lire_source(source, tri, maintenant):
             "date": date.strftime("%Y-%m-%dT%H:%M:%SZ"),
             "mots": sorted(mots_theme | set(sorted(jetons(titre), key=len, reverse=True)[:6])),
             "favori": bool(tri.favoris and tri.favoris.search(normaliser(titre + " " + extrait))),
+            "france": bool(tri.france and tri.france.search(normaliser(titre + " " + extrait))),
             # Réservés à une future étape IA (voir robot/ia.py)
             "resume": None,
             "score_ia": None,
@@ -392,6 +396,9 @@ def main():
             it["resume"] = precedent.get("resume")
             it["score_ia"] = precedent.get("score_ia")
         tous[it["id"]] = it
+
+    # Les mots exclus s'appliquent aussi aux anciens contenus (si on en ajoute dans filtres.yaml).
+    tous = {k: v for k, v in tous.items() if not tri.exclu(v["titre"], v.get("extrait") or "")}
 
     # Images manquantes : on ouvre la page de l'article (balise og:image).
     sans_image = [it for it in tous.values() if not it["image"] and not it.get("image_cherchee")]
