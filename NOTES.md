@@ -23,7 +23,7 @@
 - YouTube refuse souvent le RSS depuis les serveurs GitHub (17/24 KO au 1er passage) : plan B = lecture de la page « Vidéos » (ytInitialData), dans la langue de la chaîne. Chaînes YouTube traitées 2 par 2.
 
 ## Prochaines étapes
-1. Lucas crée son compte et le dépôt `fil` → `git init`, commit, `git remote add`, `git push` depuis `projets/fil-actu`.
-2. Pages en mode « GitHub Actions », lancer le workflow, vérifier `etat.json` en ligne (les IP GitHub peuvent être bloquées par certains sites).
-3. Installer sur son Android.
-4. Plus tard : réessayer The Engineering Mindset, ajuster les filtres selon ses retours, brancher l'IA dans `ia.py`.
+- EN LIGNE depuis le 03/11/2026 : https://lfontaine915-stack.github.io/fil/ (dépôt lfontaine915-stack/fil, Pages = GitHub Actions). 53/53 sources OK depuis GitHub après le plan B YouTube.
+- Le dépôt local `projets/fil-actu` suit `origin/main`. Avant chaque modif : `git pull --rebase` (le robot commite `docs/data` 6 fois par jour). Ne pas commiter `docs/data` depuis le PC.
+1. Installation sur l'Android de Lucas (à confirmer).
+2. Après une semaine : ajuster les filtres selon ses retours. Plus tard : brancher l'IA dans `ia.py`.
