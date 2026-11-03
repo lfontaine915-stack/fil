@@ -312,8 +312,7 @@ youtube:
     chaine: UCk0fGHsCEzGig-rSzkfCjMw
     langue: en
     themes: [batiment]
-    tri: tout
-    actif: non   # flux YouTube en panne au 03/11/2026 : remets "oui" pour réessayer
+    tri: mots-cles
 
   - nom: ITER
     chaine: UCZzwQDDag5eP4Rs-2d4nX5g

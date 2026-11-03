@@ -20,7 +20,7 @@
 - GitHub Pages plutôt que Vercel : un seul compte.
 - Envoi du code par git depuis le PC. L'authentification passe par Git Credential Manager (fenêtre navigateur), donc aucun jeton dans la conversation.
 - Sources retirées : Batiactu TV et TELT (flux vides), Megaprojects et Tomorrow's Build (introuvables), Fully Charged (devenue une chaîne voitures), Xpair et Chaud Froid Performance (RSS cassé ou erreur SSL), Energy-Storage.news (aucune image accessible), Tunnels & Tunnelling et Archpaper (403).
-- The Engineering Mindset (CVC, très pertinent) est en `actif: non` : flux 404 répété le 03/11. À réessayer.
+- YouTube refuse souvent le RSS depuis les serveurs GitHub (17/24 KO au 1er passage) : plan B = lecture de la page « Vidéos » (ytInitialData), dans la langue de la chaîne. Chaînes YouTube traitées 2 par 2.
 
 ## Prochaines étapes
 1. Lucas crée son compte et le dépôt `fil` → `git init`, commit, `git remote add`, `git push` depuis `projets/fil-actu`.

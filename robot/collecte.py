@@ -205,16 +205,77 @@ def date_de(e):
     return datetime(*d[:6], tzinfo=timezone.utc) if d else datetime.now(timezone.utc)
 
 
+UNITES = {"second": 1, "minute": 60, "hour": 3600, "day": 86400, "week": 604800, "month": 2592000, "year": 31536000,
+          "seconde": 1, "heure": 3600, "jour": 86400, "semaine": 604800, "mois": 2592000, "an": 31536000}
+
+
+def videos_de_la_page(chaine, langue, maintenant):
+    """Secours quand le flux RSS YouTube est refusé : lit la page « Vidéos » de la chaîne."""
+    # Page demandée dans la langue de la chaîne, sinon YouTube traduit les titres.
+    hl = "fr" if langue == "fr" else "en"
+    entetes = {**UA, "Accept-Language": f"{hl};q=0.9", "Cookie": "CONSENT=YES+1; SOCS=CAI"}
+    req = urllib.request.Request(f"https://www.youtube.com/channel/{chaine}/videos?hl={hl}&gl=FR", headers=entetes)
+    with urllib.request.urlopen(req, timeout=25) as r:
+        page = r.read().decode("utf8", "ignore")
+    m = re.search(r"ytInitialData\s*=\s*(\{.+?\})\s*;\s*</script>", page, re.S)
+    if not m:
+        raise ValueError("page YouTube illisible")
+    trouves = []
+
+    def parcourir(o):
+        if isinstance(o, dict):
+            if "lockupViewModel" in o or "videoRenderer" in o:
+                trouves.append(o)
+                return
+            for v in o.values():
+                parcourir(v)
+        elif isinstance(o, list):
+            for v in o:
+                parcourir(v)
+
+    parcourir(json.loads(m.group(1)))
+    entrees = []
+    for o in trouves:
+        if "videoRenderer" in o:
+            v = o["videoRenderer"]
+            vid, titre = v.get("videoId"), "".join(r.get("text", "") for r in v.get("title", {}).get("runs", []))
+            quand = v.get("publishedTimeText", {}).get("simpleText", "")
+            resume = "".join(r.get("text", "") for r in v.get("descriptionSnippet", {}).get("runs", []))
+        else:
+            v = o["lockupViewModel"]
+            if v.get("contentType") != "LOCKUP_CONTENT_TYPE_VIDEO":
+                continue
+            md = v.get("metadata", {}).get("lockupMetadataViewModel", {})
+            vid, titre, resume = v.get("contentId"), md.get("title", {}).get("content", ""), ""
+            quand = json.dumps(md.get("metadata", {}))
+        age = re.search(r"(\d+) (second|minute|hour|day|week|month|year)s? ago", quand) or \
+            re.search(r"il y a (\d+)\s(seconde|minute|heure|jour|semaine|mois|an)", quand)
+        if not vid or not titre or not age:
+            continue  # vidéo programmée ou en direct : on ignore
+        date = datetime.fromtimestamp(maintenant.timestamp() - int(age.group(1)) * UNITES[age.group(2)], timezone.utc)
+        entrees.append({"link": f"https://www.youtube.com/watch?v={vid}", "title": titre, "summary": resume,
+                        "yt_videoid": vid, "published_parsed": date.utctimetuple()})
+    if not entrees:
+        raise ValueError("aucune vidéo trouvée sur la page")
+    return entrees
+
+
 def lire_source(source, tri, maintenant):
     video = source["genre"] == "youtube"
-    # YouTube renvoie parfois des erreurs passagères : on insiste un peu plus.
-    brut = telecharger(source["flux"], essais=5 if video else 2)
-    flux = feedparser.parse(brut)
-    if not flux.entries:
-        raise ValueError("flux vide ou illisible")
+    try:
+        flux = feedparser.parse(telecharger(source["flux"], essais=2))
+        entrees = flux.entries
+        if not entrees:
+            raise ValueError("flux vide ou illisible")
+    except Exception:
+        if not video:
+            raise
+        # Le flux RSS YouTube est souvent refusé depuis les serveurs : plan B.
+        time.sleep(1)
+        entrees = videos_de_la_page(source["chaine"], source["langue"], maintenant)
     age_max = AGE_MAX_VIDEO if video else AGE_MAX_ARTICLE
     gardes, ecartes = [], 0
-    for e in flux.entries:
+    for e in entrees:
         lien = e.get("link")
         titre = nettoyer_html(e.get("title", ""))
         if not lien or not titre or PUB.search(lien):
@@ -307,8 +368,9 @@ def main():
             ancien = {}
 
     etat, nouveaux = [], []
-    with cf.ThreadPoolExecutor(12) as ex:
-        taches = {ex.submit(lire_source, s, tri, maintenant): s for s in sources}
+    # YouTube refuse les rafales : ses chaînes passent deux par deux.
+    with cf.ThreadPoolExecutor(12) as ex, cf.ThreadPoolExecutor(2) as ex_yt:
+        taches = {(ex_yt if s["genre"] == "youtube" else ex).submit(lire_source, s, tri, maintenant): s for s in sources}
         for f in cf.as_completed(taches):
             s = taches[f]
             try:
