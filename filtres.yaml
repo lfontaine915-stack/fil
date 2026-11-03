@@ -1,0 +1,328 @@
+# =====================================================================
+#  FILTRES DU FIL
+#  Majuscules et accents ignorés. Un mot attrape aussi ses variantes qui
+#  commencent pareil : "eolien" attrape "éoliennes", "turbine" attrape
+#  "turbines".
+# =====================================================================
+
+# --- 1. Mots qui ÉCARTENT un contenu (titre ou début du texte) ---
+exclure:
+  # finance, bourse, résultats
+  - résultats trimestriels
+  - résultats semestriels
+  - résultats annuels
+  - chiffre d'affaires
+  - dividende
+  - cours de bourse
+  - en bourse
+  - levée de fonds
+  - lève des fonds
+  - introduction en bourse
+  - rachète
+  - acquisition de
+  - fusion-acquisition
+  - quarterly results
+  - quarterly earnings
+  - earnings
+  - revenue
+  - dividend
+  - share price
+  - stock price
+  - shareholders
+  - ipo
+  - acquires
+  - acquisition of
+  - funding round
+  - raises $
+  # marchés publics, appels d'offres
+  - appel d'offres
+  - appels d'offres
+  - avis de marché
+  - attribution du marché
+  - marché public
+  - tender
+  - request for proposals
+  - rfp
+  # nominations, RH, carnet
+  - nomination
+  - nommé
+  - nommée
+  - rejoint le
+  - prend la direction
+  - nouveau directeur
+  - nouvelle directrice
+  - appointed
+  - appoints
+  - appointment
+  - joins as
+  - new ceo
+  - names new
+  # communiqués, événements, divers sans intérêt
+  - communiqué
+  - press release
+  - webinar
+  - webinaire
+  - salon
+  - save the date
+  - podcast
+  - sponsored
+  - sponsorisé
+  - partenariat
+  - partnership agreement
+  - memorandum of understanding
+  - offre d'emploi
+  - recrute
+  - hiring
+  - newsletter
+  - live stream
+  - livestream
+  - en direct
+  - black friday
+  - code promo
+  # justice, politique locale, administratif
+  - quitte ses fonctions
+  - condamné
+  - condamnée
+  - tribunal
+  - procès
+  - mise en demeure
+  - décret
+  - consultation publique
+  - permis de construire
+  - éco-ptz
+  - prix à la pompe
+  - gazole
+  - carburant
+  - sentenced
+  - lawsuit
+  - court ruling
+  # contrats et commandes (souvent sans images ni intérêt)
+  - remporte le contrat
+  - décroche le contrat
+  - attribue le contrat
+  - wins contract
+  - contract win
+  - awarded contract
+  - awarded a contract
+  - secures contract
+  - signs contract
+  - framework agreement
+  - tesla stock
+  - voiture électrique
+  - electric car
+  - ev sales
+
+# --- 2. Mots qui RATTACHENT un contenu à un thème ---
+# Utilisés pour choisir l'étiquette, et pour les sources en "tri: mots-cles".
+themes:
+  enr:
+    - renouvelable
+    - renewable
+    - solaire
+    - solar
+    - photovolta
+    - panneau
+    - agrivolta
+    - eolien
+    - eolienne
+    - wind farm
+    - wind turbine
+    - offshore wind
+    - windfarm
+    - turbine
+    - hydrogene
+    - hydrogen
+    - electrolyse
+    - electrolyser
+    - electrolyzer
+    - geotherm
+    - stockage
+    - batterie
+    - battery
+    - batteries
+    - energy storage
+    - pumped hydro
+    - hydroelectri
+    - hydroelectric
+    - barrage hydro
+    - maremotri
+    - tidal
+    - houlomotri
+    - wave energy
+    - reseau de chaleur
+    - reseaux de chaleur
+    - district heating
+    - chaleur fatale
+    - biomasse
+    - biomass
+    - biogaz
+    - biogas
+    - methanisation
+    - smart grid
+    - reseau electrique
+    - power grid
+    - grid
+    - transition energetique
+    - energy transition
+    - decarbon
+    - perovskite
+    - thermal storage
+    - sand battery
+  nucleaire:
+    - nucleaire
+    - nuclear
+    - reacteur
+    - reactor
+    - epr
+    - smr
+    - small modular
+    - fusion
+    - iter
+    - tokamak
+    - stellarator
+    - uranium
+    - thorium
+    - centrale nucleaire
+    - nuclear plant
+    - atom
+    - fission
+    - radioacti
+    - dechets radioactifs
+    - nuclear waste
+    - cigeo
+    - flamanville
+    - penly
+    - gravelines
+    - hinkley
+    - sizewell
+    - vogtle
+    - candu
+    - plasma
+    - neutron
+  batiment:
+    - batiment
+    - building
+    - construction bois
+    - bois
+    - timber
+    - mass timber
+    - clt
+    - cvc
+    - hvac
+    - pompe a chaleur
+    - pompes a chaleur
+    - heat pump
+    - climatisation
+    - air conditioning
+    - chauffage
+    - heating
+    - ventilation
+    - vmc
+    - isolation
+    - insulation
+    - renovation energetique
+    - retrofit
+    - bas carbone
+    - low carbon
+    - low-carbon
+    - passive house
+    - passivhaus
+    - batiment passif
+    - re2020
+    - beton bas carbone
+    - low-carbon concrete
+    - beton
+    - concrete
+    - chanvre
+    - hemp
+    - terre crue
+    - rammed earth
+    - biosource
+    - materiau
+    - material
+    - impression 3d
+    - imprime en 3d
+    - 3d print
+    - 3d-print
+    - smart building
+    - batiment intelligent
+    - domotique
+    - gtb
+    - facade
+    - architecture
+    - architect
+    - logement
+    - housing
+    - maison
+    - house
+    - immeuble
+    - tour en bois
+    - plywood
+    - recycl
+    - reemploi
+    - geothermie de surface
+    - cooling
+    - refroidissement
+  chantier:
+    - chantier
+    - construction site
+    - megaproje
+    - mega projet
+    - megaproject
+    - gare
+    - railway station
+    - train station
+    - metro station
+    - metro
+    - tunnel
+    - tunnelier
+    - tbm
+    - gratte-ciel
+    - skyscraper
+    - supertall
+    - tower
+    - pont
+    - bridge
+    - viaduc
+    - viaduct
+    - barrage
+    - aeroport
+    - airport
+    - stade
+    - stadium
+    - canal
+    - autoroute
+    - highway
+    - ligne grande vitesse
+    - lgv
+    - high-speed rail
+    - rail
+    - ferroviaire
+    - railway
+    - grand paris express
+    - lyon-turin
+    - hs2
+    - neom
+    - the line
+    - civil engineering
+    - genie civil
+    - travaux
+    - excavat
+    - crane
+    - grue
+    - demolition
+    - ouvrage
+    - infrastructure
+
+# --- 3. Bonus : mots que tu adores (le contenu remonte dans le fil) ---
+favoris:
+  - pompe a chaleur
+  - heat pump
+  - smr
+  - fusion
+  - tunnelier
+  - gratte-ciel
+  - skyscraper
+  - mass timber
+  - impression 3d
+  - geotherm

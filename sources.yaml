@@ -1,0 +1,346 @@
+# =====================================================================
+#  SOURCES DU FIL
+#  Tu peux modifier ce fichier directement sur GitHub (icône crayon).
+#
+#  Chaque source = un bloc qui commence par "- nom:".
+#  - themes  : enr, nucleaire, batiment, chantier (un ou plusieurs)
+#  - langue  : fr ou en (en = bouton "traduire" affiché)
+#  - tri     : tout       -> on garde tout ce que publie la source
+#              mots-cles  -> on ne garde que ce qui parle d'un de tes thèmes
+#                            (utile pour les sources généralistes)
+#  - actif   : mets "non" pour couper une source sans l'effacer
+#
+#  Pour ajouter une chaîne YouTube : ouvre la chaîne, clic sur
+#  "plus d'infos" > "Partager la chaîne" > "Copier l'ID de la chaîne".
+#  L'ID commence par UC...
+#
+#  Attention : garde bien les espaces au début des lignes, comme ci-dessous.
+# =====================================================================
+
+articles:
+
+  # ---------- Français ----------
+  - nom: Révolution Énergétique
+    flux: https://www.revolution-energetique.com/feed/
+    langue: fr
+    themes: [enr, nucleaire]
+    tri: tout
+
+  - nom: Connaissance des Énergies
+    flux: https://www.connaissancedesenergies.org/rss.xml
+    langue: fr
+    themes: [enr, nucleaire]
+    tri: mots-cles
+
+  - nom: pv magazine France
+    flux: https://www.pv-magazine.fr/feed/
+    langue: fr
+    themes: [enr]
+    tri: tout
+
+  - nom: H2 Mobile
+    flux: https://www.h2-mobile.fr/feed/
+    langue: fr
+    themes: [enr]
+    tri: tout
+
+  - nom: Enerzine
+    flux: https://www.enerzine.com/feed
+    langue: fr
+    themes: [enr, nucleaire]
+    tri: mots-cles
+
+  - nom: Le Monde de l'Énergie
+    flux: https://www.lemondedelenergie.com/feed/
+    langue: fr
+    themes: [enr, nucleaire]
+    tri: mots-cles
+
+  - nom: SFEN
+    flux: https://www.sfen.org/feed/
+    langue: fr
+    themes: [nucleaire]
+    tri: tout
+
+  - nom: Le Moniteur
+    flux: https://www.lemoniteur.fr/rss
+    langue: fr
+    themes: [batiment, chantier]
+    tri: mots-cles
+
+  - nom: Batiactu
+    flux: https://www.batiactu.com/accueil.rss
+    langue: fr
+    themes: [batiment, chantier]
+    tri: mots-cles
+
+  - nom: Batiweb
+    flux: https://www.batiweb.com/feed
+    langue: fr
+    themes: [batiment]
+    tri: mots-cles
+
+  - nom: NeozOne
+    flux: https://www.neozone.org/feed/
+    langue: fr
+    themes: [enr, batiment]
+    tri: mots-cles
+
+  # ---------- Anglais ----------
+  - nom: World Nuclear News
+    flux: https://www.world-nuclear-news.org/rss
+    langue: en
+    themes: [nucleaire]
+    tri: tout
+
+  - nom: ANS Nuclear Newswire
+    flux: https://www.ans.org/news/feed/
+    langue: en
+    themes: [nucleaire]
+    tri: tout
+
+  - nom: Neutron Bytes
+    flux: https://www.neutronbytes.com/feed/
+    langue: en
+    themes: [nucleaire]
+    tri: tout
+
+  - nom: offshoreWIND.biz
+    flux: https://www.offshorewind.biz/feed/
+    langue: en
+    themes: [enr]
+    tri: tout
+
+  - nom: ThinkGeoEnergy
+    flux: https://www.thinkgeoenergy.com/feed/
+    langue: en
+    themes: [enr]
+    tri: tout
+
+  - nom: Canary Media
+    flux: https://www.canarymedia.com/rss.rss
+    langue: en
+    themes: [enr, batiment]
+    tri: mots-cles
+
+  - nom: CleanTechnica
+    flux: https://cleantechnica.com/feed/
+    langue: en
+    themes: [enr]
+    tri: mots-cles
+
+  - nom: Carbon Brief
+    flux: https://www.carbonbrief.org/feed/
+    langue: en
+    themes: [enr]
+    tri: mots-cles
+
+  - nom: New Atlas Énergie
+    flux: https://newatlas.com/energy/index.rss
+    langue: en
+    themes: [enr]
+    tri: tout
+
+  - nom: New Atlas Architecture
+    flux: https://newatlas.com/architecture/index.rss
+    langue: en
+    themes: [batiment, chantier]
+    tri: tout
+
+  - nom: Interesting Engineering
+    flux: https://interestingengineering.com/feed
+    langue: en
+    themes: [enr, nucleaire, batiment, chantier]
+    tri: mots-cles
+
+  - nom: Global Construction Review
+    flux: https://www.globalconstructionreview.com/feed/
+    langue: en
+    themes: [chantier]
+    tri: tout
+
+  - nom: New Civil Engineer
+    flux: https://www.newcivilengineer.com/feed
+    langue: en
+    themes: [chantier]
+    tri: tout
+
+  - nom: Construction Physics
+    flux: https://www.construction-physics.com/feed
+    langue: en
+    themes: [batiment]
+    tri: tout
+
+  - nom: ArchDaily
+    flux: https://feeds.feedburner.com/Archdaily
+    langue: en
+    themes: [batiment, chantier]
+    tri: mots-cles
+
+  - nom: Dezeen
+    flux: https://www.dezeen.com/architecture/feed/
+    langue: en
+    themes: [batiment, chantier]
+    tri: mots-cles
+
+  - nom: Designboom
+    flux: https://www.designboom.com/architecture/feed/
+    langue: en
+    themes: [batiment, chantier]
+    tri: mots-cles
+
+
+youtube:
+
+  # ---------- Français ----------
+  - nom: Le Réveilleur
+    chaine: UC1EacOJoqsKaYxaDomTCTEQ
+    langue: fr
+    themes: [enr, nucleaire]
+    tri: tout
+
+  - nom: Monsieur Bidouille
+    chaine: UCSULDz1yaHLVQWHpm4g_GHA
+    langue: fr
+    themes: [enr, nucleaire]
+    tri: mots-cles
+
+  - nom: Révolution Énergétique
+    chaine: UCcJYfYYGhzWWLScLn9nFhwA
+    langue: fr
+    themes: [enr, nucleaire]
+    tri: tout
+
+  - nom: EDF
+    chaine: UC89C9Pjx5pAZgW6pBawPp9A
+    langue: fr
+    themes: [nucleaire, enr]
+    tri: tout
+
+  - nom: Orano
+    chaine: UChkPJY0y1DEkxfAj2JP8nbg
+    langue: fr
+    themes: [nucleaire]
+    tri: tout
+
+  - nom: Framatome
+    chaine: UCzTZpXGOKGZaeIAujkbG5Yw
+    langue: fr
+    themes: [nucleaire]
+    tri: tout
+
+  - nom: CEA
+    chaine: UCpTMWY8NRQby8zXUKhHznfg
+    langue: fr
+    themes: [nucleaire, enr]
+    tri: mots-cles
+
+  - nom: Société des grands projets
+    chaine: UCofh-A69kG5S0cxANpAYosA
+    langue: fr
+    themes: [chantier]
+    tri: tout
+
+  - nom: Bouygues Construction
+    chaine: UC858ygXEEEljP9XmJkv7-6w
+    langue: fr
+    themes: [chantier, batiment]
+    tri: tout
+
+  - nom: Heu?reka
+    chaine: UC7sXGI8p8PvKosLWagkK9wQ
+    langue: fr
+    themes: [enr, nucleaire]
+    tri: mots-cles
+
+  - nom: ScienceEtonnante
+    chaine: UCaNlbnghtwlsGF-KzAFThqA
+    langue: fr
+    themes: [enr, nucleaire]
+    tri: mots-cles
+
+  # ---------- Anglais ----------
+  - nom: The B1M
+    chaine: UC6n8I1UDTKP1IWjQMg6_TwA
+    langue: en
+    themes: [chantier, batiment]
+    tri: tout
+
+  - nom: Practical Engineering
+    chaine: UCMOqf8ab-42UUQIdVoKwjlQ
+    langue: en
+    themes: [chantier]
+    tri: tout
+
+  - nom: Real Engineering
+    chaine: UCR1IuLEqb6UEA_zQ81kwXfg
+    langue: en
+    themes: [enr, nucleaire, chantier]
+    tri: mots-cles
+
+  - nom: Kyle Hill
+    chaine: UCFbtcTaMFnOAP0pFO1L8hVw
+    langue: en
+    themes: [nucleaire]
+    tri: mots-cles
+
+  - nom: Engineering with Rosie
+    chaine: UClu8Q445-ZAG1dzzP1mHiAw
+    langue: en
+    themes: [enr]
+    tri: tout
+
+  - nom: Just Have a Think
+    chaine: UCRBwLPbXGsI2cJe9W1zfSjQ
+    langue: en
+    themes: [enr]
+    tri: tout
+
+  - nom: Undecided with Matt Ferrell
+    chaine: UCjtUS7-SZTi6pXjUbzGHQCg
+    langue: en
+    themes: [enr, batiment]
+    tri: tout
+
+  - nom: Everything Electric TECH
+    chaine: UCn2YKsCiDpL3UjxIm4-RCoQ
+    langue: en
+    themes: [enr, batiment]
+    tri: mots-cles
+
+  - nom: The Engineering Mindset
+    chaine: UCk0fGHsCEzGig-rSzkfCjMw
+    langue: en
+    themes: [batiment]
+    tri: tout
+    actif: non   # flux YouTube en panne au 03/11/2026 : remets "oui" pour réessayer
+
+  - nom: ITER
+    chaine: UCZzwQDDag5eP4Rs-2d4nX5g
+    langue: en
+    themes: [nucleaire]
+    tri: tout
+
+  - nom: Herrenknecht
+    chaine: UC1adJX9NTaNSk6lvHX5ipsg
+    langue: en
+    themes: [chantier]
+    tri: tout
+
+  - nom: Brick Immortar
+    chaine: UCjw9YUv4UoA3d0V_Pc6zLTQ
+    langue: en
+    themes: [chantier]
+    tri: tout
+
+  - nom: Dezeen (vidéo)
+    chaine: UCsWG9ANbrmgR0z-eFk_A3YQ
+    langue: en
+    themes: [batiment, chantier]
+    tri: mots-cles
+
+  - nom: ArchDaily (vidéo)
+    chaine: UC3r_kdJocuqtDYb2GgM42Ng
+    langue: en
+    themes: [batiment, chantier]
+    tri: mots-cles

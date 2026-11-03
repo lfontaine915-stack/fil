@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Fil</title>
+  <meta name="description" content="Mon fil perso : énergie, nucléaire, bâtiment, grands chantiers.">
+  <meta name="theme-color" content="#08090c">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icones/icone-192.png">
+  <link rel="apple-touch-icon" href="icones/icone-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="barre">
+    <nav class="themes" id="themes">
+      <button data-filtre="tout" class="actif">Tout</button>
+      <button data-filtre="enr" style="--c:var(--enr)">ENR</button>
+      <button data-filtre="nucleaire" style="--c:var(--nucleaire)">Nucléaire</button>
+      <button data-filtre="batiment" style="--c:var(--batiment)">Bâtiment</button>
+      <button data-filtre="chantier" style="--c:var(--chantier)">Chantiers</button>
+    </nav>
+    <div class="outils">
+      <button id="btn-favoris" class="rond" aria-label="Favoris" title="Favoris">
+        <svg viewBox="0 0 24 24"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4.5L5 21V4a1 1 0 0 1 1-1z"/></svg>
+      </button>
+      <button id="btn-menu" class="rond" aria-label="Réglages" title="Réglages">
+        <svg viewBox="0 0 24 24"><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <div id="bandeau-favoris" class="bandeau" hidden>
+    <button id="retour" class="rond" aria-label="Retour">
+      <svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <span>Favoris <b id="nb-favoris">0</b></span>
+  </div>
+
+  <main id="fil" class="fil" tabindex="-1"></main>
+
+  <aside class="aide-pc" aria-hidden="true">
+    <p><kbd>↑</kbd><kbd>↓</kbd> défiler</p>
+    <p><kbd>L</kbd> j'aime · <kbd>S</kbd> sauver</p>
+    <p><kbd>O</kbd> ouvrir · <kbd>T</kbd> traduire</p>
+    <p><kbd>Espace</kbd> lire la vidéo</p>
+  </aside>
+
+  <dialog id="menu" class="menu">
+    <div class="menu-tete">
+      <h2>Réglages</h2>
+      <button class="rond" data-fermer aria-label="Fermer">
+        <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <p class="maj" id="maj">—</p>
+    <section>
+      <h3>Ce que le fil a appris</h3>
+      <div id="gouts" class="gouts"></div>
+      <button class="lien" id="raz-gouts">Remettre les goûts à zéro</button>
+    </section>
+    <section>
+      <h3>Mes données</h3>
+      <div class="ligne-btn">
+        <button class="plein" id="exporter">Exporter</button>
+        <label class="plein">Importer<input type="file" id="importer" accept="application/json" hidden></label>
+      </div>
+      <button class="lien" id="revoir">Revoir les contenus déjà vus</button>
+      <p class="petit">Tout est enregistré sur cet appareil uniquement. Exporte pour passer du téléphone au PC.</p>
+    </section>
+    <section>
+      <h3>État des sources</h3>
+      <div id="etat" class="etat"></div>
+    </section>
+  </dialog>
+
+  <div id="toast" class="toast" role="status"></div>
+
+  <template id="modele-carte">
+    <article class="carte">
+      <div class="media"></div>
+      <div class="voile"></div>
+      <div class="texte">
+        <div class="meta"><span class="tag"></span><span class="source"></span></div>
+        <h2 class="titre"></h2>
+        <p class="extrait"></p>
+        <p class="aussi"></p>
+      </div>
+      <div class="actions">
+        <button class="act" data-act="like" aria-label="J'aime">
+          <svg viewBox="0 0 24 24"><path d="M12 20.5s-7.5-4.6-9.3-9.2C1.4 8 3.5 4.5 7 4.5c2 0 3.4 1.1 5 3 1.6-1.9 3-3 5-3 3.5 0 5.6 3.5 4.3 6.8-1.8 4.6-9.3 9.2-9.3 9.2z"/></svg>
+          <span>J'aime</span>
+        </button>
+        <button class="act" data-act="save" aria-label="Sauvegarder">
+          <svg viewBox="0 0 24 24"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4.5L5 21V4a1 1 0 0 1 1-1z"/></svg>
+          <span>Sauver</span>
+        </button>
+        <button class="act" data-act="open" aria-label="Ouvrir">
+          <svg viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Ouvrir</span>
+        </button>
+        <button class="act" data-act="trad" aria-label="Traduire">
+          <svg viewBox="0 0 24 24"><path d="M4 5h9M8.5 3v2M6 5c1 4 3.5 6.5 7 8M11 5c-.8 4-3.5 7-7 9M13 21l4-10 4 10M14.5 17.5h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Traduire</span>
+        </button>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
