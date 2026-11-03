@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-03T16:58:59Z",
+ "genere": "2026-11-03T19:55:47Z",
  "sources": [
   {
    "nom": "ANS Nuclear Newswire",
@@ -54,8 +54,8 @@
    "nom": "CEA",
    "genre": "youtube",
    "ok": true,
-   "gardes": 2,
-   "ecartes": 13
+   "gardes": 3,
+   "ecartes": 12
   },
   {
    "nom": "CNRS",
@@ -89,8 +89,8 @@
    "nom": "CleanTechnica",
    "genre": "articles",
    "ok": true,
-   "gardes": 11,
-   "ecartes": 34
+   "gardes": 10,
+   "ecartes": 35
   },
   {
    "nom": "Connaissance des Énergies",
@@ -215,8 +215,8 @@
    "nom": "Interesting Engineering",
    "genre": "articles",
    "ok": true,
-   "gardes": 4,
-   "ecartes": 6
+   "gardes": 3,
+   "ecartes": 7
   },
   {
    "nom": "Just Have a Think",
@@ -271,15 +271,15 @@
    "nom": "Le Monde Énergies",
    "genre": "articles",
    "ok": true,
-   "gardes": 4,
-   "ecartes": 16
+   "gardes": 3,
+   "ecartes": 17
   },
   {
    "nom": "Le Moniteur",
    "genre": "articles",
    "ok": true,
-   "gardes": 46,
-   "ecartes": 54
+   "gardes": 44,
+   "ecartes": 56
   },
   {
    "nom": "Le Réveilleur",
