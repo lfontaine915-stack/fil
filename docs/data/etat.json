@@ -1,17 +1,83 @@
 {
- "genere": "2026-11-02T23:55:42Z",
+ "genere": "2026-11-03T00:03:06Z",
  "sources": [
+  {
+   "nom": "ArchDaily (vidéo)",
+   "genre": "youtube",
+   "ok": false,
+   "erreur": "HTTP Error 404: Not Found"
+  },
+  {
+   "nom": "Bouygues Construction",
+   "genre": "youtube",
+   "ok": false,
+   "erreur": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "nom": "Brick Immortar",
+   "genre": "youtube",
+   "ok": false,
+   "erreur": "HTTP Error 404: Not Found"
+  },
+  {
+   "nom": "CEA",
+   "genre": "youtube",
+   "ok": false,
+   "erreur": "HTTP Error 404: Not Found"
+  },
   {
    "nom": "Dezeen (vidéo)",
    "genre": "youtube",
    "ok": false,
+   "erreur": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "nom": "EDF",
+   "genre": "youtube",
+   "ok": false,
    "erreur": "HTTP Error 404: Not Found"
+  },
+  {
+   "nom": "Engineering with Rosie",
+   "genre": "youtube",
+   "ok": false,
+   "erreur": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "nom": "Everything Electric TECH",
+   "genre": "youtube",
+   "ok": false,
+   "erreur": "HTTP Error 404: Not Found"
+  },
+  {
+   "nom": "Framatome",
+   "genre": "youtube",
+   "ok": false,
+   "erreur": "HTTP Error 500: Internal Server Error"
   },
   {
    "nom": "Herrenknecht",
    "genre": "youtube",
    "ok": false,
    "erreur": "HTTP Error 404: Not Found"
+  },
+  {
+   "nom": "ITER",
+   "genre": "youtube",
+   "ok": false,
+   "erreur": "HTTP Error 404: Not Found"
+  },
+  {
+   "nom": "Just Have a Think",
+   "genre": "youtube",
+   "ok": false,
+   "erreur": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "nom": "Kyle Hill",
+   "genre": "youtube",
+   "ok": false,
+   "erreur": "HTTP Error 500: Internal Server Error"
   },
   {
    "nom": "Le Réveilleur",
@@ -26,7 +92,19 @@
    "erreur": "HTTP Error 404: Not Found"
   },
   {
-   "nom": "Practical Engineering",
+   "nom": "Orano",
+   "genre": "youtube",
+   "ok": false,
+   "erreur": "HTTP Error 404: Not Found"
+  },
+  {
+   "nom": "Real Engineering",
+   "genre": "youtube",
+   "ok": false,
+   "erreur": "HTTP Error 404: Not Found"
+  },
+  {
+   "nom": "Révolution Énergétique",
    "genre": "youtube",
    "ok": false,
    "erreur": "HTTP Error 404: Not Found"
@@ -39,6 +117,18 @@
   },
   {
    "nom": "Société des grands projets",
+   "genre": "youtube",
+   "ok": false,
+   "erreur": "HTTP Error 404: Not Found"
+  },
+  {
+   "nom": "The B1M",
+   "genre": "youtube",
+   "ok": false,
+   "erreur": "HTTP Error 404: Not Found"
+  },
+  {
+   "nom": "Undecided with Matt Ferrell",
    "genre": "youtube",
    "ok": false,
    "erreur": "HTTP Error 404: Not Found"
@@ -58,13 +148,6 @@
    "ecartes": 4
   },
   {
-   "nom": "ArchDaily (vidéo)",
-   "genre": "youtube",
-   "ok": true,
-   "gardes": 14,
-   "ecartes": 1
-  },
-  {
    "nom": "Batiactu",
    "genre": "articles",
    "ok": true,
@@ -77,27 +160,6 @@
    "ok": true,
    "gardes": 9,
    "ecartes": 11
-  },
-  {
-   "nom": "Bouygues Construction",
-   "genre": "youtube",
-   "ok": true,
-   "gardes": 13,
-   "ecartes": 0
-  },
-  {
-   "nom": "Brick Immortar",
-   "genre": "youtube",
-   "ok": true,
-   "gardes": 0,
-   "ecartes": 0
-  },
-  {
-   "nom": "CEA",
-   "genre": "youtube",
-   "ok": true,
-   "gardes": 3,
-   "ecartes": 12
   },
   {
    "nom": "Canary Media",
@@ -125,7 +187,7 @@
    "genre": "articles",
    "ok": true,
    "gardes": 1,
-   "ecartes": 9
+   "ecartes": 8
   },
   {
    "nom": "Construction Physics",
@@ -149,39 +211,11 @@
    "ecartes": 7
   },
   {
-   "nom": "EDF",
-   "genre": "youtube",
-   "ok": true,
-   "gardes": 5,
-   "ecartes": 0
-  },
-  {
    "nom": "Enerzine",
    "genre": "articles",
    "ok": true,
    "gardes": 3,
    "ecartes": 7
-  },
-  {
-   "nom": "Engineering with Rosie",
-   "genre": "youtube",
-   "ok": true,
-   "gardes": 15,
-   "ecartes": 0
-  },
-  {
-   "nom": "Everything Electric TECH",
-   "genre": "youtube",
-   "ok": true,
-   "gardes": 3,
-   "ecartes": 5
-  },
-  {
-   "nom": "Framatome",
-   "genre": "youtube",
-   "ok": true,
-   "gardes": 13,
-   "ecartes": 0
   },
   {
    "nom": "Global Construction Review",
@@ -205,32 +239,11 @@
    "ecartes": 1
   },
   {
-   "nom": "ITER",
-   "genre": "youtube",
-   "ok": true,
-   "gardes": 1,
-   "ecartes": 0
-  },
-  {
    "nom": "Interesting Engineering",
    "genre": "articles",
    "ok": true,
    "gardes": 5,
    "ecartes": 5
-  },
-  {
-   "nom": "Just Have a Think",
-   "genre": "youtube",
-   "ok": true,
-   "gardes": 9,
-   "ecartes": 0
-  },
-  {
-   "nom": "Kyle Hill",
-   "genre": "youtube",
-   "ok": true,
-   "gardes": 2,
-   "ecartes": 3
   },
   {
    "nom": "Le Monde de l'Énergie",
@@ -282,18 +295,11 @@
    "ecartes": 5
   },
   {
-   "nom": "Orano",
+   "nom": "Practical Engineering",
    "genre": "youtube",
    "ok": true,
-   "gardes": 6,
-   "ecartes": 0
-  },
-  {
-   "nom": "Real Engineering",
-   "genre": "youtube",
-   "ok": true,
-   "gardes": 0,
-   "ecartes": 2
+   "gardes": 2,
+   "ecartes": 1
   },
   {
    "nom": "Révolution Énergétique",
@@ -303,24 +309,10 @@
    "ecartes": 1
   },
   {
-   "nom": "Révolution Énergétique",
-   "genre": "youtube",
-   "ok": true,
-   "gardes": 0,
-   "ecartes": 0
-  },
-  {
    "nom": "SFEN",
    "genre": "articles",
    "ok": true,
    "gardes": 2,
-   "ecartes": 0
-  },
-  {
-   "nom": "The B1M",
-   "genre": "youtube",
-   "ok": true,
-   "gardes": 15,
    "ecartes": 0
   },
   {
@@ -329,13 +321,6 @@
    "ok": true,
    "gardes": 44,
    "ecartes": 6
-  },
-  {
-   "nom": "Undecided with Matt Ferrell",
-   "genre": "youtube",
-   "ok": true,
-   "gardes": 5,
-   "ecartes": 5
   },
   {
    "nom": "World Nuclear News",
