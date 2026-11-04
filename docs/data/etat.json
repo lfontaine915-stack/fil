@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-04T16:58:19Z",
+ "genere": "2026-11-04T19:59:03Z",
  "sources": [
   {
    "nom": "Les Cahiers Techniques du Bâtiment",
@@ -18,8 +18,8 @@
    "nom": "ArchDaily",
    "genre": "articles",
    "ok": true,
-   "gardes": 17,
-   "ecartes": 7
+   "gardes": 18,
+   "ecartes": 6
   },
   {
    "nom": "ArchDaily (vidéo)",
@@ -32,8 +32,8 @@
    "nom": "Batiactu",
    "genre": "articles",
    "ok": true,
-   "gardes": 19,
-   "ecartes": 13
+   "gardes": 18,
+   "ecartes": 14
   },
   {
    "nom": "Batiweb",
@@ -60,8 +60,8 @@
    "nom": "CEA",
    "genre": "youtube",
    "ok": true,
-   "gardes": 3,
-   "ecartes": 12
+   "gardes": 4,
+   "ecartes": 11
   },
   {
    "nom": "CNRS",
@@ -221,8 +221,8 @@
    "nom": "Interesting Engineering",
    "genre": "articles",
    "ok": true,
-   "gardes": 5,
-   "ecartes": 5
+   "gardes": 6,
+   "ecartes": 4
   },
   {
    "nom": "Just Have a Think",
@@ -242,22 +242,22 @@
    "nom": "L'EnerGeek",
    "genre": "articles",
    "ok": true,
-   "gardes": 11,
-   "ecartes": 13
+   "gardes": 10,
+   "ecartes": 14
   },
   {
    "nom": "L'Usine Nouvelle",
    "genre": "articles",
    "ok": true,
-   "gardes": 11,
-   "ecartes": 89
+   "gardes": 10,
+   "ecartes": 90
   },
   {
    "nom": "Le Journal du Grand Paris",
    "genre": "articles",
    "ok": true,
-   "gardes": 1,
-   "ecartes": 9
+   "gardes": 2,
+   "ecartes": 8
   },
   {
    "nom": "Le Monde Architecture",
@@ -452,8 +452,8 @@
    "nom": "Ville, Rail & Transports",
    "genre": "articles",
    "ok": true,
-   "gardes": 7,
-   "ecartes": 17
+   "gardes": 8,
+   "ecartes": 16
   },
   {
    "nom": "World Nuclear News",
