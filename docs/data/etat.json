@@ -1,6 +1,12 @@
 {
- "genere": "2026-11-04T14:20:25Z",
+ "genere": "2026-11-04T16:58:19Z",
  "sources": [
+  {
+   "nom": "Les Cahiers Techniques du Bâtiment",
+   "genre": "articles",
+   "ok": false,
+   "erreur": "flux vide ou illisible"
+  },
   {
    "nom": "ANS Nuclear Newswire",
    "genre": "articles",
@@ -26,15 +32,15 @@
    "nom": "Batiactu",
    "genre": "articles",
    "ok": true,
-   "gardes": 18,
-   "ecartes": 14
+   "gardes": 19,
+   "ecartes": 13
   },
   {
    "nom": "Batiweb",
    "genre": "articles",
    "ok": true,
-   "gardes": 11,
-   "ecartes": 9
+   "gardes": 9,
+   "ecartes": 11
   },
   {
    "nom": "Bouygues Construction",
@@ -61,8 +67,8 @@
    "nom": "CNRS",
    "genre": "youtube",
    "ok": true,
-   "gardes": 3,
-   "ecartes": 12
+   "gardes": 4,
+   "ecartes": 11
   },
   {
    "nom": "CNRS Le Journal",
@@ -145,8 +151,8 @@
    "nom": "Enerzine",
    "genre": "articles",
    "ok": true,
-   "gardes": 4,
-   "ecartes": 6
+   "gardes": 3,
+   "ecartes": 7
   },
   {
    "nom": "Engineering with Rosie",
@@ -243,8 +249,8 @@
    "nom": "L'Usine Nouvelle",
    "genre": "articles",
    "ok": true,
-   "gardes": 10,
-   "ecartes": 90
+   "gardes": 11,
+   "ecartes": 89
   },
   {
    "nom": "Le Journal du Grand Paris",
@@ -264,7 +270,7 @@
    "nom": "Le Monde de l'Énergie",
    "genre": "articles",
    "ok": true,
-   "gardes": 1,
+   "gardes": 2,
    "ecartes": 2
   },
   {
@@ -286,13 +292,6 @@
    "genre": "youtube",
    "ok": true,
    "gardes": 1,
-   "ecartes": 0
-  },
-  {
-   "nom": "Les Cahiers Techniques du Bâtiment",
-   "genre": "articles",
-   "ok": true,
-   "gardes": 3,
    "ecartes": 0
   },
   {
@@ -376,7 +375,7 @@
    "nom": "Révolution Énergétique",
    "genre": "articles",
    "ok": true,
-   "gardes": 25,
+   "gardes": 26,
    "ecartes": 2
   },
   {
@@ -398,7 +397,7 @@
    "genre": "youtube",
    "ok": true,
    "gardes": 0,
-   "ecartes": 2
+   "ecartes": 1
   },
   {
    "nom": "Sciences et Avenir",
@@ -453,15 +452,15 @@
    "nom": "Ville, Rail & Transports",
    "genre": "articles",
    "ok": true,
-   "gardes": 9,
-   "ecartes": 15
+   "gardes": 7,
+   "ecartes": 17
   },
   {
    "nom": "World Nuclear News",
    "genre": "articles",
    "ok": true,
    "gardes": 46,
-   "ecartes": 3
+   "ecartes": 4
   },
   {
    "nom": "franceinfo Sciences",
