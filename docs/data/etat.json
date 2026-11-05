@@ -1,17 +1,11 @@
 {
- "genere": "2026-11-05T08:23:33Z",
+ "genere": "2026-11-05T11:06:38Z",
  "sources": [
   {
    "nom": "Les Cahiers Techniques du Bâtiment",
    "genre": "articles",
    "ok": false,
    "erreur": "flux vide ou illisible"
-  },
-  {
-   "nom": "New Civil Engineer",
-   "genre": "articles",
-   "ok": false,
-   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "nom": "ANS Nuclear Newswire",
@@ -38,15 +32,15 @@
    "nom": "Batiactu",
    "genre": "articles",
    "ok": true,
-   "gardes": 18,
-   "ecartes": 14
+   "gardes": 17,
+   "ecartes": 15
   },
   {
    "nom": "Batiweb",
    "genre": "articles",
    "ok": true,
-   "gardes": 9,
-   "ecartes": 11
+   "gardes": 10,
+   "ecartes": 10
   },
   {
    "nom": "Bouygues Construction",
@@ -143,7 +137,7 @@
    "nom": "EDF",
    "genre": "youtube",
    "ok": true,
-   "gardes": 10,
+   "gardes": 14,
    "ecartes": 1
   },
   {
@@ -157,8 +151,8 @@
    "nom": "Enerzine",
    "genre": "articles",
    "ok": true,
-   "gardes": 3,
-   "ecartes": 7
+   "gardes": 4,
+   "ecartes": 6
   },
   {
    "nom": "Engineering with Rosie",
@@ -227,8 +221,8 @@
    "nom": "Interesting Engineering",
    "genre": "articles",
    "ok": true,
-   "gardes": 3,
-   "ecartes": 7
+   "gardes": 4,
+   "ecartes": 6
   },
   {
    "nom": "Just Have a Think",
@@ -248,15 +242,15 @@
    "nom": "L'EnerGeek",
    "genre": "articles",
    "ok": true,
-   "gardes": 8,
-   "ecartes": 16
+   "gardes": 7,
+   "ecartes": 17
   },
   {
    "nom": "L'Usine Nouvelle",
    "genre": "articles",
    "ok": true,
-   "gardes": 11,
-   "ecartes": 89
+   "gardes": 9,
+   "ecartes": 88
   },
   {
    "nom": "Le Journal du Grand Paris",
@@ -290,8 +284,8 @@
    "nom": "Le Moniteur",
    "genre": "articles",
    "ok": true,
-   "gardes": 45,
-   "ecartes": 55
+   "gardes": 42,
+   "ecartes": 58
   },
   {
    "nom": "Le Réveilleur",
@@ -336,6 +330,13 @@
    "ecartes": 0
   },
   {
+   "nom": "New Civil Engineer",
+   "genre": "articles",
+   "ok": true,
+   "gardes": 10,
+   "ecartes": 0
+  },
+  {
    "nom": "Orano",
    "genre": "youtube",
    "ok": true,
@@ -353,8 +354,8 @@
    "nom": "RATP",
    "genre": "youtube",
    "ok": true,
-   "gardes": 3,
-   "ecartes": 12
+   "gardes": 2,
+   "ecartes": 13
   },
   {
    "nom": "Real Engineering",
@@ -402,8 +403,8 @@
    "nom": "Sciences et Avenir",
    "genre": "articles",
    "ok": true,
-   "gardes": 0,
-   "ecartes": 50
+   "gardes": 1,
+   "ecartes": 49
   },
   {
    "nom": "Société des grands projets",
@@ -451,15 +452,15 @@
    "nom": "Ville, Rail & Transports",
    "genre": "articles",
    "ok": true,
-   "gardes": 8,
-   "ecartes": 16
+   "gardes": 7,
+   "ecartes": 17
   },
   {
    "nom": "World Nuclear News",
    "genre": "articles",
    "ok": true,
-   "gardes": 45,
-   "ecartes": 4
+   "gardes": 43,
+   "ecartes": 3
   },
   {
    "nom": "franceinfo Sciences",
@@ -472,7 +473,7 @@
    "nom": "offshoreWIND.biz",
    "genre": "articles",
    "ok": true,
-   "gardes": 39,
+   "gardes": 41,
    "ecartes": 7
   },
   {
@@ -486,8 +487,8 @@
    "nom": "Énergies de la Mer",
    "genre": "articles",
    "ok": true,
-   "gardes": 10,
-   "ecartes": 0
+   "gardes": 9,
+   "ecartes": 1
   }
  ]
 }
