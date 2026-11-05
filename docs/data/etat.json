@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-05T17:15:43Z",
+ "genere": "2026-11-05T19:56:33Z",
  "sources": [
   {
    "nom": "Les Cahiers Techniques du Bâtiment",
@@ -123,8 +123,8 @@
    "nom": "Dezeen",
    "genre": "articles",
    "ok": true,
-   "gardes": 34,
-   "ecartes": 16
+   "gardes": 33,
+   "ecartes": 17
   },
   {
    "nom": "Dezeen (vidéo)",
@@ -179,8 +179,8 @@
    "nom": "Futura Sciences",
    "genre": "articles",
    "ok": true,
-   "gardes": 3,
-   "ecartes": 47
+   "gardes": 2,
+   "ecartes": 48
   },
   {
    "nom": "Global Construction Review",
@@ -249,8 +249,8 @@
    "nom": "L'Usine Nouvelle",
    "genre": "articles",
    "ok": true,
-   "gardes": 9,
-   "ecartes": 73
+   "gardes": 11,
+   "ecartes": 74
   },
   {
    "nom": "Le Journal du Grand Paris",
