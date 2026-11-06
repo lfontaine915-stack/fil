@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-06T08:19:50Z",
+ "genere": "2026-11-06T11:04:41Z",
  "sources": [
   {
    "nom": "Les Cahiers Techniques du Bâtiment",
@@ -32,8 +32,8 @@
    "nom": "Batiactu",
    "genre": "articles",
    "ok": true,
-   "gardes": 16,
-   "ecartes": 16
+   "gardes": 17,
+   "ecartes": 15
   },
   {
    "nom": "Batiweb",
@@ -81,7 +81,7 @@
    "nom": "Canary Media",
    "genre": "articles",
    "ok": true,
-   "gardes": 19,
+   "gardes": 20,
    "ecartes": 22
   },
   {
@@ -116,15 +116,15 @@
    "nom": "Designboom",
    "genre": "articles",
    "ok": true,
-   "gardes": 2,
+   "gardes": 3,
    "ecartes": 7
   },
   {
    "nom": "Dezeen",
    "genre": "articles",
    "ok": true,
-   "gardes": 32,
-   "ecartes": 18
+   "gardes": 33,
+   "ecartes": 17
   },
   {
    "nom": "Dezeen (vidéo)",
@@ -249,8 +249,8 @@
    "nom": "L'Usine Nouvelle",
    "genre": "articles",
    "ok": true,
-   "gardes": 12,
-   "ecartes": 84
+   "gardes": 9,
+   "ecartes": 91
   },
   {
    "nom": "Le Journal du Grand Paris",
@@ -284,8 +284,8 @@
    "nom": "Le Moniteur",
    "genre": "articles",
    "ok": true,
-   "gardes": 37,
-   "ecartes": 63
+   "gardes": 32,
+   "ecartes": 68
   },
   {
    "nom": "Le Réveilleur",
@@ -375,7 +375,7 @@
    "nom": "Révolution Énergétique",
    "genre": "articles",
    "ok": true,
-   "gardes": 26,
+   "gardes": 25,
    "ecartes": 2
   },
   {
@@ -389,7 +389,7 @@
    "nom": "SNCF Réseau",
    "genre": "youtube",
    "ok": true,
-   "gardes": 12,
+   "gardes": 13,
    "ecartes": 0
   },
   {
