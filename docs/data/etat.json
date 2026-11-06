@@ -1,11 +1,23 @@
 {
- "genere": "2026-11-06T11:04:41Z",
+ "genere": "2026-11-06T14:19:44Z",
  "sources": [
+  {
+   "nom": "L'Usine Nouvelle",
+   "genre": "articles",
+   "ok": false,
+   "erreur": "HTTP Error 403: Forbidden"
+  },
+  {
+   "nom": "Le Moniteur",
+   "genre": "articles",
+   "ok": false,
+   "erreur": "HTTP Error 403: Forbidden"
+  },
   {
    "nom": "Les Cahiers Techniques du Bâtiment",
    "genre": "articles",
    "ok": false,
-   "erreur": "flux vide ou illisible"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "nom": "ANS Nuclear Newswire",
@@ -18,8 +30,8 @@
    "nom": "ArchDaily",
    "genre": "articles",
    "ok": true,
-   "gardes": 18,
-   "ecartes": 6
+   "gardes": 20,
+   "ecartes": 4
   },
   {
    "nom": "ArchDaily (vidéo)",
@@ -39,8 +51,8 @@
    "nom": "Batiweb",
    "genre": "articles",
    "ok": true,
-   "gardes": 7,
-   "ecartes": 13
+   "gardes": 6,
+   "ecartes": 14
   },
   {
    "nom": "Bouygues Construction",
@@ -103,13 +115,13 @@
    "genre": "articles",
    "ok": true,
    "gardes": 2,
-   "ecartes": 6
+   "ecartes": 7
   },
   {
    "nom": "Construction Physics",
    "genre": "articles",
    "ok": true,
-   "gardes": 5,
+   "gardes": 6,
    "ecartes": 0
   },
   {
@@ -123,15 +135,15 @@
    "nom": "Dezeen",
    "genre": "articles",
    "ok": true,
-   "gardes": 33,
-   "ecartes": 17
+   "gardes": 34,
+   "ecartes": 16
   },
   {
    "nom": "Dezeen (vidéo)",
    "genre": "youtube",
    "ok": true,
    "gardes": 6,
-   "ecartes": 7
+   "ecartes": 8
   },
   {
    "nom": "EDF",
@@ -179,8 +191,8 @@
    "nom": "Futura Sciences",
    "genre": "articles",
    "ok": true,
-   "gardes": 2,
-   "ecartes": 48
+   "gardes": 4,
+   "ecartes": 46
   },
   {
    "nom": "Global Construction Review",
@@ -221,8 +233,8 @@
    "nom": "Interesting Engineering",
    "genre": "articles",
    "ok": true,
-   "gardes": 1,
-   "ecartes": 9
+   "gardes": 5,
+   "ecartes": 5
   },
   {
    "nom": "Just Have a Think",
@@ -242,15 +254,8 @@
    "nom": "L'EnerGeek",
    "genre": "articles",
    "ok": true,
-   "gardes": 8,
-   "ecartes": 16
-  },
-  {
-   "nom": "L'Usine Nouvelle",
-   "genre": "articles",
-   "ok": true,
-   "gardes": 9,
-   "ecartes": 91
+   "gardes": 7,
+   "ecartes": 17
   },
   {
    "nom": "Le Journal du Grand Paris",
@@ -279,13 +284,6 @@
    "ok": true,
    "gardes": 4,
    "ecartes": 16
-  },
-  {
-   "nom": "Le Moniteur",
-   "genre": "articles",
-   "ok": true,
-   "gardes": 32,
-   "ecartes": 68
   },
   {
    "nom": "Le Réveilleur",
@@ -333,8 +331,8 @@
    "nom": "New Civil Engineer",
    "genre": "articles",
    "ok": true,
-   "gardes": 8,
-   "ecartes": 2
+   "gardes": 7,
+   "ecartes": 3
   },
   {
    "nom": "Orano",
@@ -473,7 +471,7 @@
    "nom": "offshoreWIND.biz",
    "genre": "articles",
    "ok": true,
-   "gardes": 42,
+   "gardes": 41,
    "ecartes": 7
   },
   {
