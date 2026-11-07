@@ -1,11 +1,17 @@
 {
- "genere": "2026-11-07T13:53:19Z",
+ "genere": "2026-11-07T16:43:05Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
    "genre": "articles",
    "ok": false,
    "erreur": "HTTP Error 403: Forbidden"
+  },
+  {
+   "nom": "Le Journal du Grand Paris",
+   "genre": "articles",
+   "ok": false,
+   "erreur": "<urlopen error timed out>"
   },
   {
    "nom": "Le Moniteur",
@@ -15,12 +21,6 @@
   },
   {
    "nom": "Les Cahiers Techniques du Bâtiment",
-   "genre": "articles",
-   "ok": false,
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
-   "nom": "New Civil Engineer",
    "genre": "articles",
    "ok": false,
    "erreur": "HTTP Error 403: Forbidden"
@@ -100,7 +100,7 @@
    "genre": "articles",
    "ok": true,
    "gardes": 20,
-   "ecartes": 21
+   "ecartes": 20
   },
   {
    "nom": "Carbon Brief",
@@ -169,8 +169,8 @@
    "nom": "Enerzine",
    "genre": "articles",
    "ok": true,
-   "gardes": 2,
-   "ecartes": 8
+   "gardes": 1,
+   "ecartes": 9
   },
   {
    "nom": "Engineering with Rosie",
@@ -197,8 +197,8 @@
    "nom": "Futura Sciences",
    "genre": "articles",
    "ok": true,
-   "gardes": 6,
-   "ecartes": 44
+   "gardes": 7,
+   "ecartes": 43
   },
   {
    "nom": "Global Construction Review",
@@ -239,8 +239,8 @@
    "nom": "Interesting Engineering",
    "genre": "articles",
    "ok": true,
-   "gardes": 3,
-   "ecartes": 7
+   "gardes": 2,
+   "ecartes": 8
   },
   {
    "nom": "Just Have a Think",
@@ -254,7 +254,7 @@
    "genre": "youtube",
    "ok": true,
    "gardes": 0,
-   "ecartes": 5
+   "ecartes": 4
   },
   {
    "nom": "L'EnerGeek",
@@ -262,13 +262,6 @@
    "ok": true,
    "gardes": 6,
    "ecartes": 18
-  },
-  {
-   "nom": "Le Journal du Grand Paris",
-   "genre": "articles",
-   "ok": true,
-   "gardes": 3,
-   "ecartes": 7
   },
   {
    "nom": "Le Monde Architecture",
@@ -334,6 +327,13 @@
    "ecartes": 0
   },
   {
+   "nom": "New Civil Engineer",
+   "genre": "articles",
+   "ok": true,
+   "gardes": 6,
+   "ecartes": 4
+  },
+  {
    "nom": "Orano",
    "genre": "youtube",
    "ok": true,
@@ -372,7 +372,7 @@
    "nom": "Révolution Énergétique",
    "genre": "articles",
    "ok": true,
-   "gardes": 26,
+   "gardes": 25,
    "ecartes": 2
   },
   {
