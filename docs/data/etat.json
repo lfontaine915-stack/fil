@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-07T08:02:13Z",
+ "genere": "2026-11-07T10:45:27Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -15,12 +15,6 @@
   },
   {
    "nom": "Les Cahiers Techniques du Bâtiment",
-   "genre": "articles",
-   "ok": false,
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
-   "nom": "New Civil Engineer",
    "genre": "articles",
    "ok": false,
    "erreur": "HTTP Error 403: Forbidden"
@@ -239,8 +233,8 @@
    "nom": "Interesting Engineering",
    "genre": "articles",
    "ok": true,
-   "gardes": 2,
-   "ecartes": 8
+   "gardes": 3,
+   "ecartes": 7
   },
   {
    "nom": "Just Have a Think",
@@ -334,6 +328,13 @@
    "ecartes": 0
   },
   {
+   "nom": "New Civil Engineer",
+   "genre": "articles",
+   "ok": true,
+   "gardes": 6,
+   "ecartes": 4
+  },
+  {
    "nom": "Orano",
    "genre": "youtube",
    "ok": true,
@@ -372,7 +373,7 @@
    "nom": "Révolution Énergétique",
    "genre": "articles",
    "ok": true,
-   "gardes": 27,
+   "gardes": 26,
    "ecartes": 2
   },
   {
@@ -470,7 +471,7 @@
    "nom": "offshoreWIND.biz",
    "genre": "articles",
    "ok": true,
-   "gardes": 40,
+   "gardes": 38,
    "ecartes": 7
   },
   {
