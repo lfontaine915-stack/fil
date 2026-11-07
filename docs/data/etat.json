@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-07T10:45:27Z",
+ "genere": "2026-11-07T13:53:19Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -15,6 +15,12 @@
   },
   {
    "nom": "Les Cahiers Techniques du Bâtiment",
+   "genre": "articles",
+   "ok": false,
+   "erreur": "HTTP Error 403: Forbidden"
+  },
+  {
+   "nom": "New Civil Engineer",
    "genre": "articles",
    "ok": false,
    "erreur": "HTTP Error 403: Forbidden"
@@ -121,15 +127,15 @@
    "nom": "Construction Physics",
    "genre": "articles",
    "ok": true,
-   "gardes": 5,
+   "gardes": 6,
    "ecartes": 0
   },
   {
    "nom": "Designboom",
    "genre": "articles",
    "ok": true,
-   "gardes": 4,
-   "ecartes": 6
+   "gardes": 5,
+   "ecartes": 5
   },
   {
    "nom": "Dezeen",
@@ -198,7 +204,7 @@
    "nom": "Global Construction Review",
    "genre": "articles",
    "ok": true,
-   "gardes": 14,
+   "gardes": 13,
    "ecartes": 0
   },
   {
@@ -254,8 +260,8 @@
    "nom": "L'EnerGeek",
    "genre": "articles",
    "ok": true,
-   "gardes": 7,
-   "ecartes": 17
+   "gardes": 6,
+   "ecartes": 18
   },
   {
    "nom": "Le Journal du Grand Paris",
@@ -326,13 +332,6 @@
    "ok": true,
    "gardes": 2,
    "ecartes": 0
-  },
-  {
-   "nom": "New Civil Engineer",
-   "genre": "articles",
-   "ok": true,
-   "gardes": 6,
-   "ecartes": 4
   },
   {
    "nom": "Orano",
@@ -471,7 +470,7 @@
    "nom": "offshoreWIND.biz",
    "genre": "articles",
    "ok": true,
-   "gardes": 38,
+   "gardes": 37,
    "ecartes": 7
   },
   {
