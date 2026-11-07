@@ -1,17 +1,11 @@
 {
- "genere": "2026-11-07T16:43:05Z",
+ "genere": "2026-11-07T19:44:40Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
    "genre": "articles",
    "ok": false,
    "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
-   "nom": "Le Journal du Grand Paris",
-   "genre": "articles",
-   "ok": false,
-   "erreur": "<urlopen error timed out>"
   },
   {
    "nom": "Le Moniteur",
@@ -239,8 +233,8 @@
    "nom": "Interesting Engineering",
    "genre": "articles",
    "ok": true,
-   "gardes": 2,
-   "ecartes": 8
+   "gardes": 1,
+   "ecartes": 9
   },
   {
    "nom": "Just Have a Think",
@@ -262,6 +256,13 @@
    "ok": true,
    "gardes": 6,
    "ecartes": 18
+  },
+  {
+   "nom": "Le Journal du Grand Paris",
+   "genre": "articles",
+   "ok": true,
+   "gardes": 3,
+   "ecartes": 7
   },
   {
    "nom": "Le Monde Architecture",
@@ -359,7 +360,7 @@
    "genre": "youtube",
    "ok": true,
    "gardes": 0,
-   "ecartes": 2
+   "ecartes": 3
   },
   {
    "nom": "Révolution Énergétique",
