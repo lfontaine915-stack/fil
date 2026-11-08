@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-08T08:03:55Z",
+ "genere": "2026-11-08T10:46:12Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -15,12 +15,6 @@
   },
   {
    "nom": "Les Cahiers Techniques du Bâtiment",
-   "genre": "articles",
-   "ok": false,
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
-   "nom": "New Civil Engineer",
    "genre": "articles",
    "ok": false,
    "erreur": "HTTP Error 403: Forbidden"
@@ -239,8 +233,8 @@
    "nom": "Interesting Engineering",
    "genre": "articles",
    "ok": true,
-   "gardes": 1,
-   "ecartes": 9
+   "gardes": 0,
+   "ecartes": 10
   },
   {
    "nom": "Just Have a Think",
@@ -334,6 +328,13 @@
    "ecartes": 0
   },
   {
+   "nom": "New Civil Engineer",
+   "genre": "articles",
+   "ok": true,
+   "gardes": 6,
+   "ecartes": 4
+  },
+  {
    "nom": "Orano",
    "genre": "youtube",
    "ok": true,
@@ -372,7 +373,7 @@
    "nom": "Révolution Énergétique",
    "genre": "articles",
    "ok": true,
-   "gardes": 25,
+   "gardes": 26,
    "ecartes": 1
   },
   {
