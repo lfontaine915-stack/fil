@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-08T13:52:48Z",
+ "genere": "2026-11-08T16:42:25Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -30,8 +30,8 @@
    "nom": "ArchDaily",
    "genre": "articles",
    "ok": true,
-   "gardes": 19,
-   "ecartes": 5
+   "gardes": 20,
+   "ecartes": 4
   },
   {
    "nom": "ArchDaily (vidéo)",
@@ -107,8 +107,8 @@
    "nom": "CleanTechnica",
    "genre": "articles",
    "ok": true,
-   "gardes": 10,
-   "ecartes": 35
+   "gardes": 11,
+   "ecartes": 34
   },
   {
    "nom": "Connaissance des Énergies",
@@ -128,8 +128,8 @@
    "nom": "Designboom",
    "genre": "articles",
    "ok": true,
-   "gardes": 5,
-   "ecartes": 5
+   "gardes": 6,
+   "ecartes": 4
   },
   {
    "nom": "Dezeen",
@@ -233,8 +233,8 @@
    "nom": "Interesting Engineering",
    "genre": "articles",
    "ok": true,
-   "gardes": 1,
-   "ecartes": 9
+   "gardes": 2,
+   "ecartes": 8
   },
   {
    "nom": "Just Have a Think",
@@ -254,8 +254,8 @@
    "nom": "L'EnerGeek",
    "genre": "articles",
    "ok": true,
-   "gardes": 8,
-   "ecartes": 16
+   "gardes": 7,
+   "ecartes": 17
   },
   {
    "nom": "Le Journal du Grand Paris",
@@ -324,7 +324,7 @@
    "nom": "New Atlas Énergie",
    "genre": "articles",
    "ok": true,
-   "gardes": 3,
+   "gardes": 2,
    "ecartes": 0
   },
   {
@@ -408,7 +408,7 @@
    "nom": "Société des grands projets",
    "genre": "youtube",
    "ok": true,
-   "gardes": 12,
+   "gardes": 11,
    "ecartes": 0
   },
   {
@@ -443,8 +443,8 @@
    "nom": "Undecided with Matt Ferrell",
    "genre": "youtube",
    "ok": true,
-   "gardes": 5,
-   "ecartes": 5
+   "gardes": 6,
+   "ecartes": 4
   },
   {
    "nom": "Ville, Rail & Transports",
