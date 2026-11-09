@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-09T17:11:45Z",
+ "genere": "2026-11-09T19:58:21Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -23,15 +23,15 @@
    "nom": "ANS Nuclear Newswire",
    "genre": "articles",
    "ok": true,
-   "gardes": 44,
-   "ecartes": 6
+   "gardes": 43,
+   "ecartes": 7
   },
   {
    "nom": "ArchDaily",
    "genre": "articles",
    "ok": true,
-   "gardes": 18,
-   "ecartes": 6
+   "gardes": 17,
+   "ecartes": 7
   },
   {
    "nom": "ArchDaily (vidéo)",
@@ -44,8 +44,8 @@
    "nom": "Batiactu",
    "genre": "articles",
    "ok": true,
-   "gardes": 8,
-   "ecartes": 24
+   "gardes": 9,
+   "ecartes": 23
   },
   {
    "nom": "Batiweb",
@@ -233,8 +233,8 @@
    "nom": "Interesting Engineering",
    "genre": "articles",
    "ok": true,
-   "gardes": 3,
-   "ecartes": 7
+   "gardes": 4,
+   "ecartes": 6
   },
   {
    "nom": "Just Have a Think",
@@ -254,8 +254,8 @@
    "nom": "L'EnerGeek",
    "genre": "articles",
    "ok": true,
-   "gardes": 7,
-   "ecartes": 17
+   "gardes": 6,
+   "ecartes": 18
   },
   {
    "nom": "Le Journal du Grand Paris",
