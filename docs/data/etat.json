@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-09T08:31:31Z",
+ "genere": "2026-11-09T11:00:55Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -44,15 +44,15 @@
    "nom": "Batiactu",
    "genre": "articles",
    "ok": true,
-   "gardes": 13,
-   "ecartes": 19
+   "gardes": 12,
+   "ecartes": 20
   },
   {
    "nom": "Batiweb",
    "genre": "articles",
    "ok": true,
-   "gardes": 6,
-   "ecartes": 14
+   "gardes": 7,
+   "ecartes": 13
   },
   {
    "nom": "Bouygues Construction",
@@ -93,8 +93,8 @@
    "nom": "Canary Media",
    "genre": "articles",
    "ok": true,
-   "gardes": 20,
-   "ecartes": 20
+   "gardes": 21,
+   "ecartes": 21
   },
   {
    "nom": "Carbon Brief",
@@ -115,7 +115,7 @@
    "genre": "articles",
    "ok": true,
    "gardes": 2,
-   "ecartes": 8
+   "ecartes": 9
   },
   {
    "nom": "Construction Physics",
@@ -128,8 +128,8 @@
    "nom": "Designboom",
    "genre": "articles",
    "ok": true,
-   "gardes": 6,
-   "ecartes": 4
+   "gardes": 7,
+   "ecartes": 3
   },
   {
    "nom": "Dezeen",
@@ -233,8 +233,8 @@
    "nom": "Interesting Engineering",
    "genre": "articles",
    "ok": true,
-   "gardes": 2,
-   "ecartes": 8
+   "gardes": 1,
+   "ecartes": 9
   },
   {
    "nom": "Just Have a Think",
@@ -303,8 +303,8 @@
    "nom": "NeozOne",
    "genre": "articles",
    "ok": true,
-   "gardes": 7,
-   "ecartes": 13
+   "gardes": 6,
+   "ecartes": 14
   },
   {
    "nom": "Neutron Bytes",
@@ -471,7 +471,7 @@
    "nom": "offshoreWIND.biz",
    "genre": "articles",
    "ok": true,
-   "gardes": 37,
+   "gardes": 39,
    "ecartes": 7
   },
   {
@@ -485,8 +485,8 @@
    "nom": "Énergies de la Mer",
    "genre": "articles",
    "ok": true,
-   "gardes": 9,
-   "ecartes": 1
+   "gardes": 10,
+   "ecartes": 0
   }
  ]
 }
