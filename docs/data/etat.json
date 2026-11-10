@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-10T16:56:06Z",
+ "genere": "2026-11-10T19:56:25Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -20,12 +20,6 @@
    "erreur": "HTTP Error 403: Forbidden"
   },
   {
-   "nom": "New Civil Engineer",
-   "genre": "articles",
-   "ok": false,
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
    "nom": "ANS Nuclear Newswire",
    "genre": "articles",
    "ok": true,
@@ -36,8 +30,8 @@
    "nom": "ArchDaily",
    "genre": "articles",
    "ok": true,
-   "gardes": 15,
-   "ecartes": 9
+   "gardes": 16,
+   "ecartes": 8
   },
   {
    "nom": "ArchDaily (vidéo)",
@@ -50,8 +44,8 @@
    "nom": "Batiactu",
    "genre": "articles",
    "ok": true,
-   "gardes": 7,
-   "ecartes": 25
+   "gardes": 6,
+   "ecartes": 26
   },
   {
    "nom": "Batiweb",
@@ -141,8 +135,8 @@
    "nom": "Dezeen",
    "genre": "articles",
    "ok": true,
-   "gardes": 36,
-   "ecartes": 14
+   "gardes": 37,
+   "ecartes": 13
   },
   {
    "nom": "Dezeen (vidéo)",
@@ -190,15 +184,15 @@
    "nom": "Framatome",
    "genre": "youtube",
    "ok": true,
-   "gardes": 13,
+   "gardes": 9,
    "ecartes": 0
   },
   {
    "nom": "Futura Sciences",
    "genre": "articles",
    "ok": true,
-   "gardes": 4,
-   "ecartes": 46
+   "gardes": 3,
+   "ecartes": 47
   },
   {
    "nom": "Global Construction Review",
@@ -239,8 +233,8 @@
    "nom": "Interesting Engineering",
    "genre": "articles",
    "ok": true,
-   "gardes": 2,
-   "ecartes": 8
+   "gardes": 6,
+   "ecartes": 4
   },
   {
    "nom": "Just Have a Think",
@@ -302,7 +296,7 @@
    "nom": "Monsieur Bidouille",
    "genre": "youtube",
    "ok": true,
-   "gardes": 2,
+   "gardes": 3,
    "ecartes": 0
   },
   {
@@ -331,6 +325,13 @@
    "genre": "articles",
    "ok": true,
    "gardes": 3,
+   "ecartes": 0
+  },
+  {
+   "nom": "New Civil Engineer",
+   "genre": "articles",
+   "ok": true,
+   "gardes": 10,
    "ecartes": 0
   },
   {
