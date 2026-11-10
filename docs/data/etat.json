@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-10T10:55:52Z",
+ "genere": "2026-11-10T14:16:32Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -23,8 +23,8 @@
    "nom": "ANS Nuclear Newswire",
    "genre": "articles",
    "ok": true,
-   "gardes": 43,
-   "ecartes": 7
+   "gardes": 42,
+   "ecartes": 8
   },
   {
    "nom": "ArchDaily",
@@ -44,8 +44,8 @@
    "nom": "Batiactu",
    "genre": "articles",
    "ok": true,
-   "gardes": 9,
-   "ecartes": 23
+   "gardes": 6,
+   "ecartes": 26
   },
   {
    "nom": "Batiweb",
@@ -135,8 +135,8 @@
    "nom": "Dezeen",
    "genre": "articles",
    "ok": true,
-   "gardes": 35,
-   "ecartes": 15
+   "gardes": 36,
+   "ecartes": 14
   },
   {
    "nom": "Dezeen (vidéo)",
@@ -191,8 +191,8 @@
    "nom": "Futura Sciences",
    "genre": "articles",
    "ok": true,
-   "gardes": 5,
-   "ecartes": 45
+   "gardes": 4,
+   "ecartes": 46
   },
   {
    "nom": "Global Construction Review",
@@ -233,8 +233,8 @@
    "nom": "Interesting Engineering",
    "genre": "articles",
    "ok": true,
-   "gardes": 3,
-   "ecartes": 7
+   "gardes": 1,
+   "ecartes": 9
   },
   {
    "nom": "Just Have a Think",
@@ -261,8 +261,8 @@
    "nom": "Le Journal du Grand Paris",
    "genre": "articles",
    "ok": true,
-   "gardes": 2,
-   "ecartes": 8
+   "gardes": 3,
+   "ecartes": 7
   },
   {
    "nom": "Le Monde Architecture",
@@ -282,8 +282,8 @@
    "nom": "Le Monde Énergies",
    "genre": "articles",
    "ok": true,
-   "gardes": 3,
-   "ecartes": 17
+   "gardes": 2,
+   "ecartes": 18
   },
   {
    "nom": "Le Réveilleur",
@@ -345,7 +345,7 @@
    "nom": "Practical Engineering",
    "genre": "youtube",
    "ok": true,
-   "gardes": 3,
+   "gardes": 4,
    "ecartes": 1
   },
   {
@@ -373,7 +373,7 @@
    "nom": "Révolution Énergétique",
    "genre": "articles",
    "ok": true,
-   "gardes": 28,
+   "gardes": 27,
    "ecartes": 1
   },
   {
@@ -444,7 +444,7 @@
    "genre": "youtube",
    "ok": true,
    "gardes": 6,
-   "ecartes": 4
+   "ecartes": 5
   },
   {
    "nom": "Ville, Rail & Transports",
@@ -471,7 +471,7 @@
    "nom": "offshoreWIND.biz",
    "genre": "articles",
    "ok": true,
-   "gardes": 40,
+   "gardes": 41,
    "ecartes": 7
   },
   {
