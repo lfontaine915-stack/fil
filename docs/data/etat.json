@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-09T19:58:21Z",
+ "genere": "2026-11-10T04:56:17Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -20,6 +20,12 @@
    "erreur": "HTTP Error 403: Forbidden"
   },
   {
+   "nom": "Practical Engineering",
+   "genre": "youtube",
+   "ok": false,
+   "erreur": "page YouTube illisible"
+  },
+  {
    "nom": "ANS Nuclear Newswire",
    "genre": "articles",
    "ok": true,
@@ -30,15 +36,15 @@
    "nom": "ArchDaily",
    "genre": "articles",
    "ok": true,
-   "gardes": 17,
-   "ecartes": 7
+   "gardes": 16,
+   "ecartes": 8
   },
   {
    "nom": "ArchDaily (vidéo)",
    "genre": "youtube",
    "ok": true,
-   "gardes": 11,
-   "ecartes": 4
+   "gardes": 4,
+   "ecartes": 3
   },
   {
    "nom": "Batiactu",
@@ -58,7 +64,7 @@
    "nom": "Bouygues Construction",
    "genre": "youtube",
    "ok": true,
-   "gardes": 9,
+   "gardes": 11,
    "ecartes": 0
   },
   {
@@ -72,15 +78,15 @@
    "nom": "CEA",
    "genre": "youtube",
    "ok": true,
-   "gardes": 5,
-   "ecartes": 10
+   "gardes": 3,
+   "ecartes": 7
   },
   {
    "nom": "CNRS",
    "genre": "youtube",
    "ok": true,
-   "gardes": 4,
-   "ecartes": 11
+   "gardes": 3,
+   "ecartes": 27
   },
   {
    "nom": "CNRS Le Journal",
@@ -115,7 +121,7 @@
    "genre": "articles",
    "ok": true,
    "gardes": 2,
-   "ecartes": 9
+   "ecartes": 8
   },
   {
    "nom": "Construction Physics",
@@ -142,8 +148,8 @@
    "nom": "Dezeen (vidéo)",
    "genre": "youtube",
    "ok": true,
-   "gardes": 6,
-   "ecartes": 8
+   "gardes": 3,
+   "ecartes": 6
   },
   {
    "nom": "EDF",
@@ -156,8 +162,8 @@
    "nom": "Eiffage",
    "genre": "youtube",
    "ok": true,
-   "gardes": 13,
-   "ecartes": 2
+   "gardes": 2,
+   "ecartes": 1
   },
   {
    "nom": "Enerzine",
@@ -170,21 +176,21 @@
    "nom": "Engineering with Rosie",
    "genre": "youtube",
    "ok": true,
-   "gardes": 15,
+   "gardes": 11,
    "ecartes": 0
   },
   {
    "nom": "Everything Electric TECH",
    "genre": "youtube",
    "ok": true,
-   "gardes": 2,
-   "ecartes": 6
+   "gardes": 4,
+   "ecartes": 11
   },
   {
    "nom": "Framatome",
    "genre": "youtube",
    "ok": true,
-   "gardes": 13,
+   "gardes": 15,
    "ecartes": 0
   },
   {
@@ -233,29 +239,29 @@
    "nom": "Interesting Engineering",
    "genre": "articles",
    "ok": true,
-   "gardes": 4,
-   "ecartes": 6
+   "gardes": 2,
+   "ecartes": 8
   },
   {
    "nom": "Just Have a Think",
    "genre": "youtube",
    "ok": true,
-   "gardes": 9,
+   "gardes": 13,
    "ecartes": 0
   },
   {
    "nom": "Kyle Hill",
    "genre": "youtube",
    "ok": true,
-   "gardes": 0,
-   "ecartes": 4
+   "gardes": 2,
+   "ecartes": 5
   },
   {
    "nom": "L'EnerGeek",
    "genre": "articles",
    "ok": true,
-   "gardes": 6,
-   "ecartes": 18
+   "gardes": 5,
+   "ecartes": 19
   },
   {
    "nom": "Le Journal du Grand Paris",
@@ -296,8 +302,8 @@
    "nom": "Monsieur Bidouille",
    "genre": "youtube",
    "ok": true,
-   "gardes": 2,
-   "ecartes": 0
+   "gardes": 1,
+   "ecartes": 1
   },
   {
    "nom": "NeozOne",
@@ -338,36 +344,22 @@
    "nom": "Orano",
    "genre": "youtube",
    "ok": true,
-   "gardes": 5,
+   "gardes": 1,
    "ecartes": 0
-  },
-  {
-   "nom": "Practical Engineering",
-   "genre": "youtube",
-   "ok": true,
-   "gardes": 3,
-   "ecartes": 1
   },
   {
    "nom": "RATP",
    "genre": "youtube",
    "ok": true,
    "gardes": 3,
-   "ecartes": 12
+   "ecartes": 9
   },
   {
    "nom": "Real Engineering",
    "genre": "youtube",
    "ok": true,
    "gardes": 0,
-   "ecartes": 3
-  },
-  {
-   "nom": "Révolution Énergétique",
-   "genre": "youtube",
-   "ok": true,
-   "gardes": 0,
-   "ecartes": 0
+   "ecartes": 5
   },
   {
    "nom": "Révolution Énergétique",
@@ -375,6 +367,13 @@
    "ok": true,
    "gardes": 27,
    "ecartes": 1
+  },
+  {
+   "nom": "Révolution Énergétique",
+   "genre": "youtube",
+   "ok": true,
+   "gardes": 0,
+   "ecartes": 0
   },
   {
    "nom": "SFEN",
@@ -387,7 +386,7 @@
    "nom": "SNCF Réseau",
    "genre": "youtube",
    "ok": true,
-   "gardes": 13,
+   "gardes": 17,
    "ecartes": 0
   },
   {
@@ -395,7 +394,7 @@
    "genre": "youtube",
    "ok": true,
    "gardes": 0,
-   "ecartes": 1
+   "ecartes": 2
   },
   {
    "nom": "Sciences et Avenir",
@@ -408,15 +407,15 @@
    "nom": "Société des grands projets",
    "genre": "youtube",
    "ok": true,
-   "gardes": 12,
+   "gardes": 7,
    "ecartes": 0
   },
   {
    "nom": "The B1M",
    "genre": "youtube",
    "ok": true,
-   "gardes": 14,
-   "ecartes": 1
+   "gardes": 22,
+   "ecartes": 0
   },
   {
    "nom": "The Engineering Mindset",
@@ -429,8 +428,8 @@
    "nom": "ThinkGeoEnergy",
    "genre": "articles",
    "ok": true,
-   "gardes": 44,
-   "ecartes": 6
+   "gardes": 45,
+   "ecartes": 5
   },
   {
    "nom": "Transitions & Énergies",
@@ -443,8 +442,8 @@
    "nom": "Undecided with Matt Ferrell",
    "genre": "youtube",
    "ok": true,
-   "gardes": 6,
-   "ecartes": 4
+   "gardes": 11,
+   "ecartes": 0
   },
   {
    "nom": "Ville, Rail & Transports",
