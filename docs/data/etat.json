@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-10T14:16:32Z",
+ "genere": "2026-11-10T16:56:06Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -20,6 +20,12 @@
    "erreur": "HTTP Error 403: Forbidden"
   },
   {
+   "nom": "New Civil Engineer",
+   "genre": "articles",
+   "ok": false,
+   "erreur": "HTTP Error 403: Forbidden"
+  },
+  {
    "nom": "ANS Nuclear Newswire",
    "genre": "articles",
    "ok": true,
@@ -30,8 +36,8 @@
    "nom": "ArchDaily",
    "genre": "articles",
    "ok": true,
-   "gardes": 16,
-   "ecartes": 8
+   "gardes": 15,
+   "ecartes": 9
   },
   {
    "nom": "ArchDaily (vidéo)",
@@ -44,8 +50,8 @@
    "nom": "Batiactu",
    "genre": "articles",
    "ok": true,
-   "gardes": 6,
-   "ecartes": 26
+   "gardes": 7,
+   "ecartes": 25
   },
   {
    "nom": "Batiweb",
@@ -93,7 +99,7 @@
    "nom": "Canary Media",
    "genre": "articles",
    "ok": true,
-   "gardes": 22,
+   "gardes": 21,
    "ecartes": 20
   },
   {
@@ -115,7 +121,7 @@
    "genre": "articles",
    "ok": true,
    "gardes": 2,
-   "ecartes": 8
+   "ecartes": 9
   },
   {
    "nom": "Construction Physics",
@@ -143,7 +149,7 @@
    "genre": "youtube",
    "ok": true,
    "gardes": 5,
-   "ecartes": 8
+   "ecartes": 9
   },
   {
    "nom": "EDF",
@@ -156,8 +162,8 @@
    "nom": "Eiffage",
    "genre": "youtube",
    "ok": true,
-   "gardes": 13,
-   "ecartes": 2
+   "gardes": 11,
+   "ecartes": 4
   },
   {
    "nom": "Enerzine",
@@ -233,8 +239,8 @@
    "nom": "Interesting Engineering",
    "genre": "articles",
    "ok": true,
-   "gardes": 1,
-   "ecartes": 9
+   "gardes": 2,
+   "ecartes": 8
   },
   {
    "nom": "Just Have a Think",
@@ -254,8 +260,8 @@
    "nom": "L'EnerGeek",
    "genre": "articles",
    "ok": true,
-   "gardes": 7,
-   "ecartes": 17
+   "gardes": 6,
+   "ecartes": 18
   },
   {
    "nom": "Le Journal du Grand Paris",
@@ -328,13 +334,6 @@
    "ecartes": 0
   },
   {
-   "nom": "New Civil Engineer",
-   "genre": "articles",
-   "ok": true,
-   "gardes": 8,
-   "ecartes": 2
-  },
-  {
    "nom": "Orano",
    "genre": "youtube",
    "ok": true,
@@ -373,7 +372,7 @@
    "nom": "Révolution Énergétique",
    "genre": "articles",
    "ok": true,
-   "gardes": 27,
+   "gardes": 26,
    "ecartes": 1
   },
   {
@@ -408,7 +407,7 @@
    "nom": "Société des grands projets",
    "genre": "youtube",
    "ok": true,
-   "gardes": 12,
+   "gardes": 11,
    "ecartes": 0
   },
   {
@@ -457,7 +456,7 @@
    "nom": "World Nuclear News",
    "genre": "articles",
    "ok": true,
-   "gardes": 47,
+   "gardes": 48,
    "ecartes": 4
   },
   {
