@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-11T11:02:25Z",
+ "genere": "2026-11-11T14:21:44Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -30,8 +30,8 @@
    "nom": "ArchDaily",
    "genre": "articles",
    "ok": true,
-   "gardes": 16,
-   "ecartes": 8
+   "gardes": 15,
+   "ecartes": 9
   },
   {
    "nom": "ArchDaily (vidéo)",
@@ -128,15 +128,15 @@
    "nom": "Designboom",
    "genre": "articles",
    "ok": true,
-   "gardes": 9,
-   "ecartes": 1
+   "gardes": 8,
+   "ecartes": 2
   },
   {
    "nom": "Dezeen",
    "genre": "articles",
    "ok": true,
-   "gardes": 36,
-   "ecartes": 14
+   "gardes": 35,
+   "ecartes": 15
   },
   {
    "nom": "Dezeen (vidéo)",
@@ -191,14 +191,14 @@
    "nom": "Futura Sciences",
    "genre": "articles",
    "ok": true,
-   "gardes": 3,
-   "ecartes": 47
+   "gardes": 2,
+   "ecartes": 48
   },
   {
    "nom": "Global Construction Review",
    "genre": "articles",
    "ok": true,
-   "gardes": 14,
+   "gardes": 15,
    "ecartes": 0
   },
   {
@@ -331,8 +331,8 @@
    "nom": "New Civil Engineer",
    "genre": "articles",
    "ok": true,
-   "gardes": 10,
-   "ecartes": 0
+   "gardes": 9,
+   "ecartes": 1
   },
   {
    "nom": "Orano",
@@ -457,7 +457,7 @@
    "nom": "World Nuclear News",
    "genre": "articles",
    "ok": true,
-   "gardes": 47,
+   "gardes": 45,
    "ecartes": 3
   },
   {
@@ -471,7 +471,7 @@
    "nom": "offshoreWIND.biz",
    "genre": "articles",
    "ok": true,
-   "gardes": 40,
+   "gardes": 38,
    "ecartes": 8
   },
   {
