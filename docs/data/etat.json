@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-11T08:21:06Z",
+ "genere": "2026-11-11T11:02:25Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -87,14 +87,14 @@
    "genre": "articles",
    "ok": true,
    "gardes": 1,
-   "ecartes": 9
+   "ecartes": 8
   },
   {
    "nom": "Canary Media",
    "genre": "articles",
    "ok": true,
    "gardes": 21,
-   "ecartes": 19
+   "ecartes": 21
   },
   {
    "nom": "Carbon Brief",
@@ -135,8 +135,8 @@
    "nom": "Dezeen",
    "genre": "articles",
    "ok": true,
-   "gardes": 37,
-   "ecartes": 13
+   "gardes": 36,
+   "ecartes": 14
   },
   {
    "nom": "Dezeen (vidéo)",
@@ -303,14 +303,14 @@
    "nom": "NeozOne",
    "genre": "articles",
    "ok": true,
-   "gardes": 5,
-   "ecartes": 15
+   "gardes": 7,
+   "ecartes": 13
   },
   {
    "nom": "Neutron Bytes",
    "genre": "articles",
    "ok": true,
-   "gardes": 4,
+   "gardes": 5,
    "ecartes": 0
   },
   {
@@ -451,14 +451,14 @@
    "genre": "articles",
    "ok": true,
    "gardes": 5,
-   "ecartes": 19
+   "ecartes": 18
   },
   {
    "nom": "World Nuclear News",
    "genre": "articles",
    "ok": true,
-   "gardes": 48,
-   "ecartes": 4
+   "gardes": 47,
+   "ecartes": 3
   },
   {
    "nom": "franceinfo Sciences",
@@ -472,7 +472,7 @@
    "genre": "articles",
    "ok": true,
    "gardes": 40,
-   "ecartes": 7
+   "ecartes": 8
   },
   {
    "nom": "pv magazine France",
