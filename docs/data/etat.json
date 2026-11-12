@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-12T14:23:11Z",
+ "genere": "2026-11-12T17:05:43Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -30,8 +30,8 @@
    "nom": "ArchDaily",
    "genre": "articles",
    "ok": true,
-   "gardes": 15,
-   "ecartes": 9
+   "gardes": 16,
+   "ecartes": 8
   },
   {
    "nom": "ArchDaily (vidéo)",
@@ -44,8 +44,8 @@
    "nom": "Batiactu",
    "genre": "articles",
    "ok": true,
-   "gardes": 6,
-   "ecartes": 26
+   "gardes": 7,
+   "ecartes": 25
   },
   {
    "nom": "Batiweb",
@@ -163,8 +163,8 @@
    "nom": "Enerzine",
    "genre": "articles",
    "ok": true,
-   "gardes": 0,
-   "ecartes": 10
+   "gardes": 1,
+   "ecartes": 9
   },
   {
    "nom": "Engineering with Rosie",
@@ -233,8 +233,8 @@
    "nom": "Interesting Engineering",
    "genre": "articles",
    "ok": true,
-   "gardes": 7,
-   "ecartes": 3
+   "gardes": 2,
+   "ecartes": 8
   },
   {
    "nom": "Just Have a Think",
@@ -254,8 +254,8 @@
    "nom": "L'EnerGeek",
    "genre": "articles",
    "ok": true,
-   "gardes": 9,
-   "ecartes": 15
+   "gardes": 10,
+   "ecartes": 14
   },
   {
    "nom": "Le Journal du Grand Paris",
@@ -331,8 +331,8 @@
    "nom": "New Civil Engineer",
    "genre": "articles",
    "ok": true,
-   "gardes": 8,
-   "ecartes": 2
+   "gardes": 7,
+   "ecartes": 3
   },
   {
    "nom": "Orano",
@@ -429,8 +429,8 @@
    "nom": "ThinkGeoEnergy",
    "genre": "articles",
    "ok": true,
-   "gardes": 46,
-   "ecartes": 4
+   "gardes": 47,
+   "ecartes": 3
   },
   {
    "nom": "Transitions & Énergies",
@@ -457,8 +457,8 @@
    "nom": "World Nuclear News",
    "genre": "articles",
    "ok": true,
-   "gardes": 47,
-   "ecartes": 3
+   "gardes": 48,
+   "ecartes": 4
   },
   {
    "nom": "franceinfo Sciences",
@@ -472,7 +472,7 @@
    "genre": "articles",
    "ok": true,
    "gardes": 40,
-   "ecartes": 9
+   "ecartes": 10
   },
   {
    "nom": "pv magazine France",
