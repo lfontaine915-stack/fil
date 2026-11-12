@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-12T08:22:12Z",
+ "genere": "2026-11-12T11:06:09Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -30,8 +30,8 @@
    "nom": "ArchDaily",
    "genre": "articles",
    "ok": true,
-   "gardes": 14,
-   "ecartes": 10
+   "gardes": 15,
+   "ecartes": 9
   },
   {
    "nom": "ArchDaily (vidéo)",
@@ -44,15 +44,15 @@
    "nom": "Batiactu",
    "genre": "articles",
    "ok": true,
-   "gardes": 6,
-   "ecartes": 26
+   "gardes": 5,
+   "ecartes": 27
   },
   {
    "nom": "Batiweb",
    "genre": "articles",
    "ok": true,
-   "gardes": 9,
-   "ecartes": 11
+   "gardes": 7,
+   "ecartes": 13
   },
   {
    "nom": "Bouygues Construction",
@@ -79,8 +79,8 @@
    "nom": "CNRS",
    "genre": "youtube",
    "ok": true,
-   "gardes": 4,
-   "ecartes": 11
+   "gardes": 3,
+   "ecartes": 12
   },
   {
    "nom": "CNRS Le Journal",
@@ -94,7 +94,7 @@
    "genre": "articles",
    "ok": true,
    "gardes": 22,
-   "ecartes": 19
+   "ecartes": 21
   },
   {
    "nom": "Carbon Brief",
@@ -128,8 +128,8 @@
    "nom": "Designboom",
    "genre": "articles",
    "ok": true,
-   "gardes": 8,
-   "ecartes": 2
+   "gardes": 7,
+   "ecartes": 3
   },
   {
    "nom": "Dezeen",
@@ -198,7 +198,7 @@
    "nom": "Global Construction Review",
    "genre": "articles",
    "ok": true,
-   "gardes": 15,
+   "gardes": 13,
    "ecartes": 0
   },
   {
@@ -331,8 +331,8 @@
    "nom": "New Civil Engineer",
    "genre": "articles",
    "ok": true,
-   "gardes": 8,
-   "ecartes": 2
+   "gardes": 9,
+   "ecartes": 1
   },
   {
    "nom": "Orano",
@@ -457,7 +457,7 @@
    "nom": "World Nuclear News",
    "genre": "articles",
    "ok": true,
-   "gardes": 49,
+   "gardes": 48,
    "ecartes": 3
   },
   {
@@ -485,8 +485,8 @@
    "nom": "Énergies de la Mer",
    "genre": "articles",
    "ok": true,
-   "gardes": 9,
-   "ecartes": 1
+   "gardes": 8,
+   "ecartes": 2
   }
  ]
 }
