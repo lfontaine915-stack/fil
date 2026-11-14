@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-14T16:44:32Z",
+ "genere": "2026-11-14T19:45:46Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -20,6 +20,12 @@
    "erreur": "HTTP Error 403: Forbidden"
   },
   {
+   "nom": "New Civil Engineer",
+   "genre": "articles",
+   "ok": false,
+   "erreur": "HTTP Error 403: Forbidden"
+  },
+  {
    "nom": "ANS Nuclear Newswire",
    "genre": "articles",
    "ok": true,
@@ -30,8 +36,8 @@
    "nom": "ArchDaily",
    "genre": "articles",
    "ok": true,
-   "gardes": 18,
-   "ecartes": 6
+   "gardes": 20,
+   "ecartes": 4
   },
   {
    "nom": "ArchDaily (vidéo)",
@@ -65,7 +71,7 @@
    "nom": "Brick Immortar",
    "genre": "youtube",
    "ok": true,
-   "gardes": 0,
+   "gardes": 1,
    "ecartes": 0
   },
   {
@@ -107,8 +113,8 @@
    "nom": "CleanTechnica",
    "genre": "articles",
    "ok": true,
-   "gardes": 12,
-   "ecartes": 33
+   "gardes": 10,
+   "ecartes": 35
   },
   {
    "nom": "Connaissance des Énergies",
@@ -191,8 +197,8 @@
    "nom": "Futura Sciences",
    "genre": "articles",
    "ok": true,
-   "gardes": 4,
-   "ecartes": 46
+   "gardes": 5,
+   "ecartes": 45
   },
   {
    "nom": "Global Construction Review",
@@ -233,8 +239,8 @@
    "nom": "Interesting Engineering",
    "genre": "articles",
    "ok": true,
-   "gardes": 4,
-   "ecartes": 6
+   "gardes": 0,
+   "ecartes": 10
   },
   {
    "nom": "Just Have a Think",
@@ -254,8 +260,8 @@
    "nom": "L'EnerGeek",
    "genre": "articles",
    "ok": true,
-   "gardes": 12,
-   "ecartes": 12
+   "gardes": 11,
+   "ecartes": 13
   },
   {
    "nom": "Le Journal du Grand Paris",
@@ -310,7 +316,7 @@
    "nom": "Neutron Bytes",
    "genre": "articles",
    "ok": true,
-   "gardes": 4,
+   "gardes": 5,
    "ecartes": 0
   },
   {
@@ -326,13 +332,6 @@
    "ok": true,
    "gardes": 4,
    "ecartes": 0
-  },
-  {
-   "nom": "New Civil Engineer",
-   "genre": "articles",
-   "ok": true,
-   "gardes": 9,
-   "ecartes": 1
   },
   {
    "nom": "Orano",
