@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-14T08:05:01Z",
+ "genere": "2026-11-14T10:46:52Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -135,8 +135,8 @@
    "nom": "Dezeen",
    "genre": "articles",
    "ok": true,
-   "gardes": 36,
-   "ecartes": 14
+   "gardes": 35,
+   "ecartes": 15
   },
   {
    "nom": "Dezeen (vidéo)",
@@ -198,7 +198,7 @@
    "nom": "Global Construction Review",
    "genre": "articles",
    "ok": true,
-   "gardes": 16,
+   "gardes": 15,
    "ecartes": 0
   },
   {
@@ -254,8 +254,8 @@
    "nom": "L'EnerGeek",
    "genre": "articles",
    "ok": true,
-   "gardes": 9,
-   "ecartes": 15
+   "gardes": 11,
+   "ecartes": 13
   },
   {
    "nom": "Le Journal du Grand Paris",
@@ -373,7 +373,7 @@
    "nom": "Révolution Énergétique",
    "genre": "articles",
    "ok": true,
-   "gardes": 26,
+   "gardes": 27,
    "ecartes": 1
   },
   {
@@ -471,7 +471,7 @@
    "nom": "offshoreWIND.biz",
    "genre": "articles",
    "ok": true,
-   "gardes": 40,
+   "gardes": 39,
    "ecartes": 10
   },
   {
@@ -485,8 +485,8 @@
    "nom": "Énergies de la Mer",
    "genre": "articles",
    "ok": true,
-   "gardes": 8,
-   "ecartes": 2
+   "gardes": 9,
+   "ecartes": 1
   }
  ]
 }
