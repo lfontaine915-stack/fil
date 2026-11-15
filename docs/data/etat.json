@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-15T08:10:38Z",
+ "genere": "2026-11-15T10:47:42Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -135,8 +135,8 @@
    "nom": "Dezeen",
    "genre": "articles",
    "ok": true,
-   "gardes": 35,
-   "ecartes": 15
+   "gardes": 34,
+   "ecartes": 16
   },
   {
    "nom": "Dezeen (vidéo)",
@@ -163,8 +163,8 @@
    "nom": "Enerzine",
    "genre": "articles",
    "ok": true,
-   "gardes": 5,
-   "ecartes": 5
+   "gardes": 3,
+   "ecartes": 7
   },
   {
    "nom": "Engineering with Rosie",
@@ -373,7 +373,7 @@
    "nom": "Révolution Énergétique",
    "genre": "articles",
    "ok": true,
-   "gardes": 26,
+   "gardes": 27,
    "ecartes": 1
   },
   {
@@ -464,8 +464,8 @@
    "nom": "franceinfo Sciences",
    "genre": "articles",
    "ok": true,
-   "gardes": 1,
-   "ecartes": 19
+   "gardes": 0,
+   "ecartes": 20
   },
   {
    "nom": "offshoreWIND.biz",
