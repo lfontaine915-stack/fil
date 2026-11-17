@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-17T05:01:41Z",
+ "genere": "2026-11-17T08:24:20Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -93,8 +93,8 @@
    "nom": "Canary Media",
    "genre": "articles",
    "ok": true,
-   "gardes": 21,
-   "ecartes": 23
+   "gardes": 20,
+   "ecartes": 22
   },
   {
    "nom": "Carbon Brief",
@@ -107,8 +107,8 @@
    "nom": "CleanTechnica",
    "genre": "articles",
    "ok": true,
-   "gardes": 16,
-   "ecartes": 29
+   "gardes": 15,
+   "ecartes": 30
   },
   {
    "nom": "Connaissance des Énergies",
@@ -198,7 +198,7 @@
    "nom": "Global Construction Review",
    "genre": "articles",
    "ok": true,
-   "gardes": 15,
+   "gardes": 16,
    "ecartes": 0
   },
   {
