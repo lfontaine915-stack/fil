@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-16T19:59:15Z",
+ "genere": "2026-11-17T05:01:41Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -30,8 +30,8 @@
    "nom": "ArchDaily",
    "genre": "articles",
    "ok": true,
-   "gardes": 17,
-   "ecartes": 7
+   "gardes": 18,
+   "ecartes": 6
   },
   {
    "nom": "ArchDaily (vidéo)",
@@ -93,7 +93,7 @@
    "nom": "Canary Media",
    "genre": "articles",
    "ok": true,
-   "gardes": 20,
+   "gardes": 21,
    "ecartes": 23
   },
   {
@@ -107,15 +107,15 @@
    "nom": "CleanTechnica",
    "genre": "articles",
    "ok": true,
-   "gardes": 13,
-   "ecartes": 32
+   "gardes": 16,
+   "ecartes": 29
   },
   {
    "nom": "Connaissance des Énergies",
    "genre": "articles",
    "ok": true,
    "gardes": 2,
-   "ecartes": 10
+   "ecartes": 9
   },
   {
    "nom": "Construction Physics",
@@ -128,15 +128,15 @@
    "nom": "Designboom",
    "genre": "articles",
    "ok": true,
-   "gardes": 6,
-   "ecartes": 4
+   "gardes": 5,
+   "ecartes": 5
   },
   {
    "nom": "Dezeen",
    "genre": "articles",
    "ok": true,
-   "gardes": 35,
-   "ecartes": 15
+   "gardes": 36,
+   "ecartes": 14
   },
   {
    "nom": "Dezeen (vidéo)",
@@ -163,8 +163,8 @@
    "nom": "Enerzine",
    "genre": "articles",
    "ok": true,
-   "gardes": 4,
-   "ecartes": 6
+   "gardes": 3,
+   "ecartes": 7
   },
   {
    "nom": "Engineering with Rosie",
@@ -233,8 +233,8 @@
    "nom": "Interesting Engineering",
    "genre": "articles",
    "ok": true,
-   "gardes": 4,
-   "ecartes": 6
+   "gardes": 0,
+   "ecartes": 10
   },
   {
    "nom": "Just Have a Think",
@@ -254,8 +254,8 @@
    "nom": "L'EnerGeek",
    "genre": "articles",
    "ok": true,
-   "gardes": 8,
-   "ecartes": 16
+   "gardes": 9,
+   "ecartes": 15
   },
   {
    "nom": "Le Journal du Grand Paris",
@@ -268,7 +268,7 @@
    "nom": "Le Monde Architecture",
    "genre": "articles",
    "ok": true,
-   "gardes": 4,
+   "gardes": 5,
    "ecartes": 0
   },
   {
@@ -436,8 +436,8 @@
    "nom": "Transitions & Énergies",
    "genre": "articles",
    "ok": true,
-   "gardes": 3,
-   "ecartes": 7
+   "gardes": 4,
+   "ecartes": 6
   },
   {
    "nom": "Undecided with Matt Ferrell",
