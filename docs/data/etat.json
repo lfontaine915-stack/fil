@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-18T17:10:19Z",
+ "genere": "2026-11-18T20:02:00Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -30,8 +30,8 @@
    "nom": "ArchDaily",
    "genre": "articles",
    "ok": true,
-   "gardes": 15,
-   "ecartes": 9
+   "gardes": 14,
+   "ecartes": 10
   },
   {
    "nom": "ArchDaily (vidéo)",
@@ -177,7 +177,7 @@
    "nom": "Everything Electric TECH",
    "genre": "youtube",
    "ok": true,
-   "gardes": 3,
+   "gardes": 4,
    "ecartes": 5
   },
   {
@@ -261,8 +261,8 @@
    "nom": "Le Journal du Grand Paris",
    "genre": "articles",
    "ok": true,
-   "gardes": 3,
-   "ecartes": 7
+   "gardes": 2,
+   "ecartes": 8
   },
   {
    "nom": "Le Monde Architecture",
@@ -310,7 +310,7 @@
    "nom": "Neutron Bytes",
    "genre": "articles",
    "ok": true,
-   "gardes": 5,
+   "gardes": 6,
    "ecartes": 0
   },
   {
@@ -450,8 +450,8 @@
    "nom": "Ville, Rail & Transports",
    "genre": "articles",
    "ok": true,
-   "gardes": 8,
-   "ecartes": 15
+   "gardes": 9,
+   "ecartes": 14
   },
   {
    "nom": "World Nuclear News",
