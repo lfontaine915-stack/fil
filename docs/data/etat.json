@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-18T08:22:50Z",
+ "genere": "2026-11-18T11:07:56Z",
  "sources": [
   {
    "nom": "Enerzine",
@@ -36,8 +36,8 @@
    "nom": "ArchDaily",
    "genre": "articles",
    "ok": true,
-   "gardes": 17,
-   "ecartes": 7
+   "gardes": 16,
+   "ecartes": 8
   },
   {
    "nom": "ArchDaily (vidéo)",
@@ -57,8 +57,8 @@
    "nom": "Batiweb",
    "genre": "articles",
    "ok": true,
-   "gardes": 10,
-   "ecartes": 10
+   "gardes": 11,
+   "ecartes": 9
   },
   {
    "nom": "Bouygues Construction",
@@ -99,7 +99,7 @@
    "nom": "Canary Media",
    "genre": "articles",
    "ok": true,
-   "gardes": 22,
+   "gardes": 23,
    "ecartes": 22
   },
   {
@@ -148,7 +148,7 @@
    "nom": "Dezeen (vidéo)",
    "genre": "youtube",
    "ok": true,
-   "gardes": 4,
+   "gardes": 5,
    "ecartes": 9
   },
   {
@@ -183,7 +183,7 @@
    "nom": "Framatome",
    "genre": "youtube",
    "ok": true,
-   "gardes": 7,
+   "gardes": 5,
    "ecartes": 0
   },
   {
@@ -197,7 +197,7 @@
    "nom": "Global Construction Review",
    "genre": "articles",
    "ok": true,
-   "gardes": 16,
+   "gardes": 14,
    "ecartes": 0
   },
   {
@@ -232,8 +232,8 @@
    "nom": "Interesting Engineering",
    "genre": "articles",
    "ok": true,
-   "gardes": 1,
-   "ecartes": 9
+   "gardes": 2,
+   "ecartes": 8
   },
   {
    "nom": "Just Have a Think",
@@ -253,8 +253,8 @@
    "nom": "L'EnerGeek",
    "genre": "articles",
    "ok": true,
-   "gardes": 9,
-   "ecartes": 15
+   "gardes": 7,
+   "ecartes": 17
   },
   {
    "nom": "Le Journal du Grand Paris",
@@ -281,8 +281,8 @@
    "nom": "Le Monde Énergies",
    "genre": "articles",
    "ok": true,
-   "gardes": 5,
-   "ecartes": 15
+   "gardes": 7,
+   "ecartes": 13
   },
   {
    "nom": "Le Réveilleur",
@@ -323,15 +323,15 @@
    "nom": "New Atlas Énergie",
    "genre": "articles",
    "ok": true,
-   "gardes": 4,
+   "gardes": 3,
    "ecartes": 0
   },
   {
    "nom": "New Civil Engineer",
    "genre": "articles",
    "ok": true,
-   "gardes": 5,
-   "ecartes": 5
+   "gardes": 6,
+   "ecartes": 4
   },
   {
    "nom": "Orano",
@@ -372,7 +372,7 @@
    "nom": "Révolution Énergétique",
    "genre": "articles",
    "ok": true,
-   "gardes": 26,
+   "gardes": 27,
    "ecartes": 2
   },
   {
@@ -400,8 +400,8 @@
    "nom": "Sciences et Avenir",
    "genre": "articles",
    "ok": true,
-   "gardes": 1,
-   "ecartes": 49
+   "gardes": 2,
+   "ecartes": 48
   },
   {
    "nom": "Société des grands projets",
@@ -456,8 +456,8 @@
    "nom": "World Nuclear News",
    "genre": "articles",
    "ok": true,
-   "gardes": 46,
-   "ecartes": 4
+   "gardes": 45,
+   "ecartes": 3
   },
   {
    "nom": "franceinfo Sciences",
@@ -470,8 +470,8 @@
    "nom": "offshoreWIND.biz",
    "genre": "articles",
    "ok": true,
-   "gardes": 42,
-   "ecartes": 8
+   "gardes": 41,
+   "ecartes": 9
   },
   {
    "nom": "pv magazine France",
@@ -484,8 +484,8 @@
    "nom": "Énergies de la Mer",
    "genre": "articles",
    "ok": true,
-   "gardes": 8,
-   "ecartes": 2
+   "gardes": 7,
+   "ecartes": 3
   }
  ]
 }
