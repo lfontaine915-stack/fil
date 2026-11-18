@@ -1,11 +1,11 @@
 {
- "genere": "2026-11-17T20:09:05Z",
+ "genere": "2026-11-18T05:04:37Z",
  "sources": [
   {
    "nom": "Enerzine",
    "genre": "articles",
    "ok": false,
-   "erreur": "<urlopen error [Errno 111] Connection refused>"
+   "erreur": "<urlopen error [Errno -3] Temporary failure in name resolution>"
   },
   {
    "nom": "L'Usine Nouvelle",
@@ -29,15 +29,15 @@
    "nom": "ANS Nuclear Newswire",
    "genre": "articles",
    "ok": true,
-   "gardes": 43,
-   "ecartes": 7
+   "gardes": 44,
+   "ecartes": 6
   },
   {
    "nom": "ArchDaily",
    "genre": "articles",
    "ok": true,
-   "gardes": 19,
-   "ecartes": 5
+   "gardes": 15,
+   "ecartes": 9
   },
   {
    "nom": "ArchDaily (vidéo)",
@@ -100,7 +100,7 @@
    "genre": "articles",
    "ok": true,
    "gardes": 22,
-   "ecartes": 22
+   "ecartes": 23
   },
   {
    "nom": "Carbon Brief",
@@ -120,7 +120,7 @@
    "nom": "Connaissance des Énergies",
    "genre": "articles",
    "ok": true,
-   "gardes": 2,
+   "gardes": 1,
    "ecartes": 10
   },
   {
@@ -134,8 +134,8 @@
    "nom": "Designboom",
    "genre": "articles",
    "ok": true,
-   "gardes": 4,
-   "ecartes": 6
+   "gardes": 3,
+   "ecartes": 7
   },
   {
    "nom": "Dezeen",
@@ -232,8 +232,8 @@
    "nom": "Interesting Engineering",
    "genre": "articles",
    "ok": true,
-   "gardes": 3,
-   "ecartes": 7
+   "gardes": 1,
+   "ecartes": 9
   },
   {
    "nom": "Just Have a Think",
@@ -253,8 +253,8 @@
    "nom": "L'EnerGeek",
    "genre": "articles",
    "ok": true,
-   "gardes": 9,
-   "ecartes": 15
+   "gardes": 7,
+   "ecartes": 17
   },
   {
    "nom": "Le Journal du Grand Paris",
@@ -316,7 +316,7 @@
    "nom": "New Atlas Architecture",
    "genre": "articles",
    "ok": true,
-   "gardes": 3,
+   "gardes": 2,
    "ecartes": 0
   },
   {
