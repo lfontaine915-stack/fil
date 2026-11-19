@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-18T20:02:00Z",
+ "genere": "2026-11-19T05:09:55Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -30,8 +30,8 @@
    "nom": "ArchDaily",
    "genre": "articles",
    "ok": true,
-   "gardes": 14,
-   "ecartes": 10
+   "gardes": 12,
+   "ecartes": 12
   },
   {
    "nom": "ArchDaily (vidéo)",
@@ -163,8 +163,8 @@
    "nom": "Enerzine",
    "genre": "articles",
    "ok": true,
-   "gardes": 2,
-   "ecartes": 8
+   "gardes": 3,
+   "ecartes": 7
   },
   {
    "nom": "Engineering with Rosie",
@@ -191,8 +191,8 @@
    "nom": "Futura Sciences",
    "genre": "articles",
    "ok": true,
-   "gardes": 1,
-   "ecartes": 49
+   "gardes": 2,
+   "ecartes": 48
   },
   {
    "nom": "Global Construction Review",
@@ -233,8 +233,8 @@
    "nom": "Interesting Engineering",
    "genre": "articles",
    "ok": true,
-   "gardes": 4,
-   "ecartes": 6
+   "gardes": 5,
+   "ecartes": 4
   },
   {
    "nom": "Just Have a Think",
@@ -450,8 +450,8 @@
    "nom": "Ville, Rail & Transports",
    "genre": "articles",
    "ok": true,
-   "gardes": 9,
-   "ecartes": 14
+   "gardes": 10,
+   "ecartes": 13
   },
   {
    "nom": "World Nuclear News",
