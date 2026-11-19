@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-19T14:24:16Z",
+ "genere": "2026-11-19T23:01:20Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -23,15 +23,15 @@
    "nom": "ANS Nuclear Newswire",
    "genre": "articles",
    "ok": true,
-   "gardes": 44,
-   "ecartes": 6
+   "gardes": 45,
+   "ecartes": 5
   },
   {
    "nom": "ArchDaily",
    "genre": "articles",
    "ok": true,
-   "gardes": 17,
-   "ecartes": 7
+   "gardes": 16,
+   "ecartes": 8
   },
   {
    "nom": "ArchDaily (vidéo)",
@@ -44,15 +44,15 @@
    "nom": "Batiactu",
    "genre": "articles",
    "ok": true,
-   "gardes": 11,
-   "ecartes": 21
+   "gardes": 9,
+   "ecartes": 23
   },
   {
    "nom": "Batiweb",
    "genre": "articles",
    "ok": true,
-   "gardes": 9,
-   "ecartes": 11
+   "gardes": 10,
+   "ecartes": 10
   },
   {
    "nom": "Bouygues Construction",
@@ -93,8 +93,8 @@
    "nom": "Canary Media",
    "genre": "articles",
    "ok": true,
-   "gardes": 24,
-   "ecartes": 21
+   "gardes": 23,
+   "ecartes": 22
   },
   {
    "nom": "Carbon Brief",
@@ -107,15 +107,15 @@
    "nom": "CleanTechnica",
    "genre": "articles",
    "ok": true,
-   "gardes": 17,
-   "ecartes": 28
+   "gardes": 18,
+   "ecartes": 27
   },
   {
    "nom": "Connaissance des Énergies",
    "genre": "articles",
    "ok": true,
    "gardes": 1,
-   "ecartes": 12
+   "ecartes": 13
   },
   {
    "nom": "Construction Physics",
@@ -128,8 +128,8 @@
    "nom": "Designboom",
    "genre": "articles",
    "ok": true,
-   "gardes": 5,
-   "ecartes": 5
+   "gardes": 6,
+   "ecartes": 4
   },
   {
    "nom": "Dezeen",
@@ -261,8 +261,8 @@
    "nom": "Le Journal du Grand Paris",
    "genre": "articles",
    "ok": true,
-   "gardes": 2,
-   "ecartes": 8
+   "gardes": 3,
+   "ecartes": 7
   },
   {
    "nom": "Le Monde Architecture",
@@ -276,7 +276,7 @@
    "genre": "articles",
    "ok": true,
    "gardes": 2,
-   "ecartes": 1
+   "ecartes": 2
   },
   {
    "nom": "Le Monde Énergies",
@@ -450,14 +450,14 @@
    "nom": "Ville, Rail & Transports",
    "genre": "articles",
    "ok": true,
-   "gardes": 10,
-   "ecartes": 13
+   "gardes": 9,
+   "ecartes": 14
   },
   {
    "nom": "World Nuclear News",
    "genre": "articles",
    "ok": true,
-   "gardes": 47,
+   "gardes": 48,
    "ecartes": 3
   },
   {
