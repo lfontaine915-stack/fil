@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-20T21:01:59Z",
+ "genere": "2026-11-21T12:33:21Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -87,7 +87,7 @@
    "genre": "articles",
    "ok": true,
    "gardes": 1,
-   "ecartes": 7
+   "ecartes": 6
   },
   {
    "nom": "Canary Media",
@@ -107,15 +107,15 @@
    "nom": "CleanTechnica",
    "genre": "articles",
    "ok": true,
-   "gardes": 14,
-   "ecartes": 31
+   "gardes": 15,
+   "ecartes": 30
   },
   {
    "nom": "Connaissance des Énergies",
    "genre": "articles",
    "ok": true,
    "gardes": 2,
-   "ecartes": 12
+   "ecartes": 11
   },
   {
    "nom": "Construction Physics",
@@ -135,8 +135,8 @@
    "nom": "Dezeen",
    "genre": "articles",
    "ok": true,
-   "gardes": 35,
-   "ecartes": 15
+   "gardes": 36,
+   "ecartes": 14
   },
   {
    "nom": "Dezeen (vidéo)",
@@ -163,8 +163,8 @@
    "nom": "Enerzine",
    "genre": "articles",
    "ok": true,
-   "gardes": 5,
-   "ecartes": 5
+   "gardes": 6,
+   "ecartes": 4
   },
   {
    "nom": "Engineering with Rosie",
@@ -178,13 +178,13 @@
    "genre": "youtube",
    "ok": true,
    "gardes": 4,
-   "ecartes": 5
+   "ecartes": 4
   },
   {
    "nom": "Framatome",
    "genre": "youtube",
    "ok": true,
-   "gardes": 5,
+   "gardes": 3,
    "ecartes": 0
   },
   {
@@ -233,8 +233,8 @@
    "nom": "Interesting Engineering",
    "genre": "articles",
    "ok": true,
-   "gardes": 2,
-   "ecartes": 8
+   "gardes": 1,
+   "ecartes": 9
   },
   {
    "nom": "Just Have a Think",
@@ -254,15 +254,15 @@
    "nom": "L'EnerGeek",
    "genre": "articles",
    "ok": true,
-   "gardes": 9,
-   "ecartes": 15
+   "gardes": 11,
+   "ecartes": 13
   },
   {
    "nom": "Le Journal du Grand Paris",
    "genre": "articles",
    "ok": true,
-   "gardes": 5,
-   "ecartes": 5
+   "gardes": 4,
+   "ecartes": 6
   },
   {
    "nom": "Le Monde Architecture",
@@ -303,8 +303,8 @@
    "nom": "NeozOne",
    "genre": "articles",
    "ok": true,
-   "gardes": 2,
-   "ecartes": 18
+   "gardes": 3,
+   "ecartes": 17
   },
   {
    "nom": "Neutron Bytes",
@@ -317,7 +317,7 @@
    "nom": "New Atlas Architecture",
    "genre": "articles",
    "ok": true,
-   "gardes": 2,
+   "gardes": 0,
    "ecartes": 0
   },
   {
@@ -436,8 +436,8 @@
    "nom": "Transitions & Énergies",
    "genre": "articles",
    "ok": true,
-   "gardes": 4,
-   "ecartes": 6
+   "gardes": 5,
+   "ecartes": 5
   },
   {
    "nom": "Undecided with Matt Ferrell",
