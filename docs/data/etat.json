@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-22T12:30:35Z",
+ "genere": "2026-11-22T20:18:45Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -30,8 +30,8 @@
    "nom": "ArchDaily",
    "genre": "articles",
    "ok": true,
-   "gardes": 18,
-   "ecartes": 6
+   "gardes": 19,
+   "ecartes": 5
   },
   {
    "nom": "ArchDaily (vidéo)",
@@ -121,7 +121,7 @@
    "nom": "Construction Physics",
    "genre": "articles",
    "ok": true,
-   "gardes": 6,
+   "gardes": 5,
    "ecartes": 0
   },
   {
@@ -191,8 +191,8 @@
    "nom": "Futura Sciences",
    "genre": "articles",
    "ok": true,
-   "gardes": 3,
-   "ecartes": 47
+   "gardes": 4,
+   "ecartes": 46
   },
   {
    "nom": "Global Construction Review",
@@ -233,14 +233,14 @@
    "nom": "Interesting Engineering",
    "genre": "articles",
    "ok": true,
-   "gardes": 1,
-   "ecartes": 9
+   "gardes": 3,
+   "ecartes": 7
   },
   {
    "nom": "Just Have a Think",
    "genre": "youtube",
    "ok": true,
-   "gardes": 9,
+   "gardes": 10,
    "ecartes": 0
   },
   {
@@ -248,21 +248,21 @@
    "genre": "youtube",
    "ok": true,
    "gardes": 0,
-   "ecartes": 5
+   "ecartes": 6
   },
   {
    "nom": "L'EnerGeek",
    "genre": "articles",
    "ok": true,
-   "gardes": 10,
-   "ecartes": 14
+   "gardes": 9,
+   "ecartes": 15
   },
   {
    "nom": "Le Journal du Grand Paris",
    "genre": "articles",
    "ok": true,
-   "gardes": 4,
-   "ecartes": 6
+   "gardes": 5,
+   "ecartes": 5
   },
   {
    "nom": "Le Monde Architecture",
@@ -310,7 +310,7 @@
    "nom": "Neutron Bytes",
    "genre": "articles",
    "ok": true,
-   "gardes": 7,
+   "gardes": 6,
    "ecartes": 0
   },
   {
@@ -324,7 +324,7 @@
    "nom": "New Atlas Énergie",
    "genre": "articles",
    "ok": true,
-   "gardes": 4,
+   "gardes": 3,
    "ecartes": 0
   },
   {
