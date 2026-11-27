@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-26T13:49:35Z",
+ "genere": "2026-11-27T00:32:34Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -36,8 +36,8 @@
    "nom": "ArchDaily",
    "genre": "articles",
    "ok": true,
-   "gardes": 18,
-   "ecartes": 6
+   "gardes": 15,
+   "ecartes": 9
   },
   {
    "nom": "ArchDaily (vidéo)",
@@ -50,8 +50,8 @@
    "nom": "Batiactu",
    "genre": "articles",
    "ok": true,
-   "gardes": 9,
-   "ecartes": 23
+   "gardes": 11,
+   "ecartes": 21
   },
   {
    "nom": "Batiweb",
@@ -78,8 +78,8 @@
    "nom": "CEA",
    "genre": "youtube",
    "ok": true,
-   "gardes": 5,
-   "ecartes": 10
+   "gardes": 4,
+   "ecartes": 11
   },
   {
    "nom": "CNRS",
@@ -100,7 +100,7 @@
    "genre": "articles",
    "ok": true,
    "gardes": 22,
-   "ecartes": 23
+   "ecartes": 22
   },
   {
    "nom": "Carbon Brief",
@@ -113,14 +113,14 @@
    "nom": "CleanTechnica",
    "genre": "articles",
    "ok": true,
-   "gardes": 15,
-   "ecartes": 30
+   "gardes": 14,
+   "ecartes": 31
   },
   {
    "nom": "Connaissance des Énergies",
    "genre": "articles",
    "ok": true,
-   "gardes": 1,
+   "gardes": 2,
    "ecartes": 11
   },
   {
@@ -169,8 +169,8 @@
    "nom": "Enerzine",
    "genre": "articles",
    "ok": true,
-   "gardes": 1,
-   "ecartes": 8
+   "gardes": 2,
+   "ecartes": 7
   },
   {
    "nom": "Engineering with Rosie",
@@ -197,8 +197,8 @@
    "nom": "Futura Sciences",
    "genre": "articles",
    "ok": true,
-   "gardes": 4,
-   "ecartes": 46
+   "gardes": 3,
+   "ecartes": 47
   },
   {
    "nom": "Global Construction Review",
@@ -239,8 +239,8 @@
    "nom": "Interesting Engineering",
    "genre": "articles",
    "ok": true,
-   "gardes": 4,
-   "ecartes": 6
+   "gardes": 2,
+   "ecartes": 8
   },
   {
    "nom": "Just Have a Think",
@@ -260,8 +260,8 @@
    "nom": "L'EnerGeek",
    "genre": "articles",
    "ok": true,
-   "gardes": 8,
-   "ecartes": 16
+   "gardes": 9,
+   "ecartes": 15
   },
   {
    "nom": "Le Journal du Grand Paris",
@@ -274,15 +274,15 @@
    "nom": "Le Monde Architecture",
    "genre": "articles",
    "ok": true,
-   "gardes": 6,
+   "gardes": 7,
    "ecartes": 0
   },
   {
    "nom": "Le Monde de l'Énergie",
    "genre": "articles",
    "ok": true,
-   "gardes": 3,
-   "ecartes": 2
+   "gardes": 2,
+   "ecartes": 3
   },
   {
    "nom": "Le Monde Énergies",
@@ -337,8 +337,8 @@
    "nom": "New Civil Engineer",
    "genre": "articles",
    "ok": true,
-   "gardes": 8,
-   "ecartes": 2
+   "gardes": 9,
+   "ecartes": 1
   },
   {
    "nom": "Orano",
@@ -358,15 +358,15 @@
    "nom": "RATP",
    "genre": "youtube",
    "ok": true,
-   "gardes": 2,
-   "ecartes": 13
+   "gardes": 3,
+   "ecartes": 12
   },
   {
    "nom": "Real Engineering",
    "genre": "youtube",
    "ok": true,
    "gardes": 0,
-   "ecartes": 3
+   "ecartes": 2
   },
   {
    "nom": "Révolution Énergétique",
@@ -379,7 +379,7 @@
    "nom": "Révolution Énergétique",
    "genre": "articles",
    "ok": true,
-   "gardes": 33,
+   "gardes": 32,
    "ecartes": 4
   },
   {
@@ -435,8 +435,8 @@
    "nom": "ThinkGeoEnergy",
    "genre": "articles",
    "ok": true,
-   "gardes": 42,
-   "ecartes": 8
+   "gardes": 41,
+   "ecartes": 9
   },
   {
    "nom": "Transitions & Énergies",
@@ -456,15 +456,15 @@
    "nom": "Ville, Rail & Transports",
    "genre": "articles",
    "ok": true,
-   "gardes": 6,
-   "ecartes": 17
+   "gardes": 7,
+   "ecartes": 16
   },
   {
    "nom": "World Nuclear News",
    "genre": "articles",
    "ok": true,
-   "gardes": 41,
-   "ecartes": 5
+   "gardes": 44,
+   "ecartes": 6
   },
   {
    "nom": "franceinfo Sciences",
