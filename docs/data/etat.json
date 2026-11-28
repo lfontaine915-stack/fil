@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-28T00:00:21Z",
+ "genere": "2026-11-28T12:54:24Z",
  "sources": [
   {
    "nom": "L'Usine Nouvelle",
@@ -36,8 +36,8 @@
    "nom": "ArchDaily",
    "genre": "articles",
    "ok": true,
-   "gardes": 15,
-   "ecartes": 9
+   "gardes": 16,
+   "ecartes": 8
   },
   {
    "nom": "ArchDaily (vidéo)",
@@ -99,15 +99,15 @@
    "nom": "Canary Media",
    "genre": "articles",
    "ok": true,
-   "gardes": 21,
-   "ecartes": 21
+   "gardes": 20,
+   "ecartes": 20
   },
   {
    "nom": "Carbon Brief",
    "genre": "articles",
    "ok": true,
    "gardes": 0,
-   "ecartes": 12
+   "ecartes": 11
   },
   {
    "nom": "CleanTechnica",
@@ -141,8 +141,8 @@
    "nom": "Dezeen",
    "genre": "articles",
    "ok": true,
-   "gardes": 36,
-   "ecartes": 14
+   "gardes": 37,
+   "ecartes": 13
   },
   {
    "nom": "Dezeen (vidéo)",
@@ -169,8 +169,8 @@
    "nom": "Enerzine",
    "genre": "articles",
    "ok": true,
-   "gardes": 2,
-   "ecartes": 8
+   "gardes": 3,
+   "ecartes": 7
   },
   {
    "nom": "Engineering with Rosie",
@@ -184,7 +184,7 @@
    "genre": "youtube",
    "ok": true,
    "gardes": 4,
-   "ecartes": 4
+   "ecartes": 3
   },
   {
    "nom": "Framatome",
@@ -197,8 +197,8 @@
    "nom": "Futura Sciences",
    "genre": "articles",
    "ok": true,
-   "gardes": 3,
-   "ecartes": 47
+   "gardes": 5,
+   "ecartes": 45
   },
   {
    "nom": "Global Construction Review",
@@ -218,7 +218,7 @@
    "nom": "Herrenknecht",
    "genre": "youtube",
    "ok": true,
-   "gardes": 7,
+   "gardes": 2,
    "ecartes": 0
   },
   {
@@ -260,8 +260,8 @@
    "nom": "L'EnerGeek",
    "genre": "articles",
    "ok": true,
-   "gardes": 10,
-   "ecartes": 14
+   "gardes": 11,
+   "ecartes": 13
   },
   {
    "nom": "Le Journal du Grand Paris",
@@ -274,7 +274,7 @@
    "nom": "Le Monde Architecture",
    "genre": "articles",
    "ok": true,
-   "gardes": 8,
+   "gardes": 9,
    "ecartes": 0
   },
   {
@@ -370,17 +370,17 @@
   },
   {
    "nom": "Révolution Énergétique",
-   "genre": "articles",
-   "ok": true,
-   "gardes": 33,
-   "ecartes": 4
-  },
-  {
-   "nom": "Révolution Énergétique",
    "genre": "youtube",
    "ok": true,
    "gardes": 0,
    "ecartes": 0
+  },
+  {
+   "nom": "Révolution Énergétique",
+   "genre": "articles",
+   "ok": true,
+   "gardes": 34,
+   "ecartes": 4
   },
   {
    "nom": "SFEN",
@@ -442,8 +442,8 @@
    "nom": "Transitions & Énergies",
    "genre": "articles",
    "ok": true,
-   "gardes": 3,
-   "ecartes": 7
+   "gardes": 4,
+   "ecartes": 6
   },
   {
    "nom": "Undecided with Matt Ferrell",
@@ -470,8 +470,8 @@
    "nom": "franceinfo Sciences",
    "genre": "articles",
    "ok": true,
-   "gardes": 3,
-   "ecartes": 17
+   "gardes": 2,
+   "ecartes": 18
   },
   {
    "nom": "pv magazine France",
